@@ -1,4 +1,39 @@
-h1 {
-  font-size: 300px;
-  color: pink;
+body{
+	background-color: FloralWhite;
 }
+h1 {
+  font-family: ser;
+  font-size: 200px;
+  color: Lavender;
+  letter-spacing: 383px;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 100%;
+}
+h2 {
+  font-family: ser;
+  font-size: 200px;
+  color: Lavender;
+  letter-spacing: 100px;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 100%;
+}
+h3 {
+  font-family: ser;
+  font-size: 200px;
+  color: Lavender;
+  letter-spacing: 375px;
+  line-height: 10%;
+  padding-left: 30px;
+  text-align: center;
+  line-height: 100%;
+}
+a {
+  font-family: sans-serif;
+  font-size: 100px;
+  color: LightGreen;
+  letter-spacing: 100px;
+  padding-left: 30px;
+}
+
