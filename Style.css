@@ -1,0 +1,57 @@
+body {
+  margin: 25px;
+}
+
+/* INDEX PAGE */
+
+body.index {
+  background: #BEC6C9;
+  font-family: "Courier New", monospace;
+  line-height: 1.5;
+}
+
+body.index a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+body.index a:hover {
+  background: yellow;
+}
+
+body.index h1 {
+  font-family: "Times New Roman", serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* STYLE ONE */
+
+body.one {
+  background: yellow;
+}
+
+body.one h1 {
+  font-family: Impact;
+}
+
+/* STYLE TWO */
+
+body.two {
+  background: lime;
+}
+
+body.two h1 {
+  font-family: "Comic Sans MS";
+}
+
+/* STYLE THREE */
+
+body.three {
+  background: pink;
+}
+
+body.three h1 {
+  font-family: Georgia;
+}
