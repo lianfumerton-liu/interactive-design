@@ -218,9 +218,40 @@ body.two h3:hover{
 /* STYLE THREE */
 
 body.three {
-  background: pink;
+  background-image: url(http://www.richardplank.com/wp-content/uploads/2011/11/Sol-LeWitt.jpg);
+  background-size: cover;
+  position: absolute;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  color: GoldenRod;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 600px;
+  padding-left: 70px;
 }
 
-body.three h1 {
-  font-family: Georgia;
+.container {
+  background-color: White;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
+
+body.three header{
+  font-family: "Abril Fatface", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: white;
+  font-size: 100px;
+  font-style: normal;
+  color: White;
+  text-rendering: optimizeLegibility;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
