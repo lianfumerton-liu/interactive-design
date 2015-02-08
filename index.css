@@ -4,8 +4,11 @@
 }
 
 body{
-	background-color: rgb(254, 228, 206);
+  /* background-color: rgb(254, 228, 206); */
+  background-image: url(Oil1.jpg);
+  background-size: 150px;
 }
+
 h1 {
   font-family: 'NTR', sans-serif;
   font-size: 200px;
@@ -14,6 +17,11 @@ h1 {
   padding-left: 60px;
   text-align: center;
   line-height: 10%;
+  text-shadow:
+    -1px -1px 0 Blue,
+    5px -5px 0 Blue,
+    -1px 1px 0 Blue,
+    1px 1px 0 Blue;  
 }
 h2 {
   font-family: 'NTR', sans-serif;
@@ -23,6 +31,25 @@ h2 {
   padding-left: 60px;
   text-align: center;
   line-height: 300%;
+  text-shadow:
+    -1px -1px 0 Blue,
+    5px -5px 0 Blue,
+    -1px 1px 0 Blue,
+    1px 1px 0 Blue;  
+}
+p {
+  font-family: 'NTR', sans-serif;
+  font-size: 200px;
+  color: Lavender;
+  position: absolute;
+    left: 740px;
+    top: 450px;
+    z-index: 1;
+  text-shadow:
+    -1px -1px 0 Blue,
+    5px -5px 0 Blue,
+    -1px 1px 0 Blue,
+    1px 1px 0 Blue;  
 }
 h3 {
   font-family: 'NTR', sans-serif;
@@ -32,6 +59,11 @@ h3 {
   letter-spacing: 625px;
   line-height: 0%;
   padding-left: 60px;
+  text-shadow:
+    -1px -1px 0 Blue,
+    5px -5px 0 Blue,
+    -1px 1px 0 Blue,
+    1px 1px 0 Blue;  
 }
 #clock {
   font-family: sans-serif;
@@ -44,18 +76,29 @@ h3 {
     top: 50px;
     z-index: 1;
 }
+#clock:hover {
+  position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;;
+}
+
 #Style {
-  font-family: sans-serif;
-  font-size: 20px;
+  font-family: 'Indie Flower';
+  font-size: 40px;
   text-align: right;
-  color: rgb(0, 236, 236);
+  color: Black;
   letter-spacing: 10px;
   padding-left: 70px;
   position: absolute;
-    left: 1030px;
-    top: 575px;
-    z-index: 0;
+    left: 1200px;
+    top: 700px;
+    z-index: 2;
 }
+#Style:hover {
+  letter-spacing: 100px;
+}
+
 #How {
   font-family: 'Pirata One';
   font-size: 50px;
@@ -66,4 +109,8 @@ h3 {
     left: 500px;
     top: 1060px;
     z-index: 2;
+}
+
+#How:hover {
+  font-size: 300px;
 }
