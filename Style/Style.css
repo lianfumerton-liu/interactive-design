@@ -29,11 +29,56 @@ body.index h1 {
 /* STYLE ONE */
 
 body.one {
-  background: yellow;
+  background: #eeeeee;
+  color: #2c353c;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.4;
+  color: #2c353c;
+  position: relative;
+  cursor: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 600px
 }
-
-body.one h1 {
-  font-family: Impact;
+body.one header{
+  font-family: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  line-height: 129%;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 0px;
+  padding: 2em;
+  border-color: #e3e3e3;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: white;
+  color: #333333;
+  box-shadow: 1px 1px 2px #dbdbdb;
+  word-wrap: break-word;
+  color: #134fe6;
+}
+h3 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  display: inline;
+  vertical-align: super;
+  background-color: #efff00;
+  color: #2c353c;
+  margin: 0 auto;
+  width: 600px
+}
+h1:hover {
+  color: #05ff56;
+}
+#name {
+  color: #05ff56;
 }
 
 /* STYLE TWO */
@@ -44,6 +89,15 @@ body.two {
 
 body.two h1 {
   font-family: "Comic Sans MS";
+}
+p#panel1, p#panel2, p#panel3, p#panel4, p#panel5, p#panel6, p#panel7, p#panel8, p#panel9, p#panel10, p#panel11, p#panel12, p#panel13, p#panel14, p#panel15, p#panel16, p#panel17 {
+  padding: 2em;
+  border-color: #e3e3e3;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: white;
+  box-shadow: 1px 1px 2px #dbdbdb;
+  word-wrap: break-word;
 }
 
 /* STYLE THREE */
