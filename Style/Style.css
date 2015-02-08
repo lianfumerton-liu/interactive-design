@@ -234,7 +234,7 @@ body.three {
   padding-left: 70px;
 }
 
-.container {
+body.three #container {
   background-color: White;
   padding-left: 20px;
   padding-right: 20px;
