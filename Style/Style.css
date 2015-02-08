@@ -125,17 +125,6 @@ body.one h1:hover {
 body.one #name {
   color: #05ff56;
 }
-
-/* STYLE TWO */
-
-body.two {
-  background: lime;
-}
-
-body.two h1 {
-  font-family: "Comic Sans MS";
-}
-
 .panel {
   padding: 2em;
   border-color: #e3e3e3;
@@ -144,6 +133,51 @@ body.two h1 {
   background: white;
   box-shadow: 1px 1px 2px #dbdbdb;
   word-wrap: break-word;
+}
+
+/* STYLE TWO */
+
+body.two {
+  background-color: #ffe7e8;
+  color: black;
+  font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+  position: relative;
+  font-size: .9rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 2em;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 800px
+}
+
+body.two h1,h2,h3{
+  font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 23px;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+body.two h1:hover{
+  box-shadow: 2px 2px 3px Gray;
+}
+body.two h2:hover{
+  box-shadow: 2px 2px 3px Gray;
+}
+body.two h3:hover{
+  box-shadow: 2px 2px 3px Gray;
 }
 
 /* STYLE THREE */
