@@ -35,6 +35,13 @@ body.index h1:hover {
   letter-spacing: 30px;
 }
 
+body.index header{
+  font-family: 'Josefin Slab', serif;
+  color: black;
+  font-weight: Bold 700;
+  line-height: 1;
+}
+
 /* SOURCES PAGE */
 
 body.sources img{
@@ -155,7 +162,35 @@ body.two {
   width: 800px
 }
 
-body.two h1,h2,h3{
+body.two h1{
+  font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 23px;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+body.two h2{
+  font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 23px;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+body.two h3{
   font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
   font-weight: 400;
   font-size: 1rem;
