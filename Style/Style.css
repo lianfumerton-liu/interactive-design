@@ -388,7 +388,7 @@ body.seven {
   color: White;
 }
 
-/* STYLE SEVEN */
+/* STYLE EIGHT */
 
 body.eight h1{
   font-family: serif;
@@ -411,4 +411,85 @@ body.eight .blue {
 body.eight .blue:hover {
   text-decoration: underline;
   color: rgb(6, 69, 173);
+}
 
+/* STYLE NINE */
+
+body.nine {
+  background-image: url(http://www.field.io/wp-content/uploads/2013/07/walldrawing130.png);
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  font-style: 300;
+  line-height: 2;
+  font-size: .9rem;
+  color: #5c5c5f;
+}
+
+body.nine #header {
+  text-align: left;
+  border-bottom: dotted;
+  border-width: .2rem;
+}
+body.nine h1, h2, h3{
+  font-family: 'Nunito', sans-serif;
+  font-style: 300;
+  text-align: left;
+  font-size: 1rem;
+  color: #5c5c5f;
+}
+
+
+body.nine {
+  text-align: right;
+}
+
+body.nine .container {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding-right: 200px;
+  padding-top: 30px;
+}
+
+
+/* STYLE TEN */
+
+body.ten .container {
+  display: inline-block;
+  text-align: left;
+  width: 10%;
+  padding-right: 500px;
+  padding-top: 30px;
+}
+
+body.ten h1{
+  position: relative;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: underline;
+  line-height: 1.3;
+  color: blue;
+}
+body.ten p {
+  position: relative;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: underline;
+  line-height: 1.3;
+  color: blue;
+}
+
+body.ten p:hover {
+  color: purple;
+}
+body.ten h1:hover {
+  color: purple;
+}
