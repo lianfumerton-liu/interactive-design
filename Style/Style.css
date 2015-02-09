@@ -520,7 +520,16 @@ body.eleven {
     font-size: 1.5em;
 }
 
-body.eleven h2,h3{
+body.eleven h2{
+  font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+    line-height: 0;
+    color: rgb(255, 0, 82);
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+body.eleven h3{
   font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
     line-height: 0;
     color: rgb(255, 0, 82);
@@ -702,7 +711,7 @@ body.fourteen h3 {
 
 }
 
-/* FOURTEEN */
+/* FIFTEEN */
 
 body.fifteen .container {
   display: inline block;
