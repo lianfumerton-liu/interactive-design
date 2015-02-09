@@ -200,6 +200,7 @@ body.two h2{
   display: inline-block;
   width: 150px;
   padding: 10px;
+  color: black;
   border: 1px solid black;
   text-align: center;
   outline: none;
@@ -211,6 +212,7 @@ body.two h3{
   font-size: 1rem;
   line-height: 23px;
   letter-spacing: 1px;
+  color: black;
   display: inline-block;
   width: 150px;
   padding: 10px;
@@ -700,7 +702,7 @@ body.fourteen h3 {
 }
 
 
-#bar {
+#bar2 {
   position: inline-block;
   position: fixed;
   width: 150%;
