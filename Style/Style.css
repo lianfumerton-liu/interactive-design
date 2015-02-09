@@ -702,6 +702,37 @@ body.fourteen h3 {
 
 }
 
+/* FOURTEEN */
+
+body.fifteen .container {
+  display: inline block;
+  text-align: justify;
+  width: 25%;
+  margin: 0 auto;
+}
+
+body.fifteen {
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: tahoma,arial,sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  color: black;
+}
+
+body.fifteen h1 {
+  padding: 4px 40px;
+  background-color: black;
+  text-align: center;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 14px;
+  color: white;
+}
+
 
 
 
