@@ -62,7 +62,7 @@ body.index h3:hover {
 body.sources img{
   position: relative;
     left: 400px;
-    top: 10px;
+    top: 40px;
   width: 10%;
   height: 10%;
 }
@@ -70,7 +70,8 @@ body.sources img{
 body.sources p{
   position: relative;
     left: 400px;
-    top: 5px;
+    top: 30px;
+    padding-bottom: 40px;
   font-family: 'Josefin Slab', serif;
   line-height: 130%;
 }
@@ -85,7 +86,7 @@ body.sources a {
   font-weight: Bold 700;
   color: Black;
   text-decoration: none;
-  line-height: 30px;
+  line-height: 40px;
   border-bottom: 1px solid black;
 }
 
