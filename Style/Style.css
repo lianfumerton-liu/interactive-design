@@ -352,3 +352,40 @@ body.six h1,h2,h3 {
   background-color: rgb(0, 255, 242);
   margin: -40px;
 }
+
+/* STYLE SEVEN */
+
+body.seven h1 {
+  font-family: 'Roboto', sans-serif;
+  color: White;
+  font-size: 60px;
+  text-align: center;
+}
+body.seven h2,h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: White;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0px;
+}
+body.seven {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.2;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  width: 518px;
+  margin-top: 60px;
+  margin-left: -259px;
+  text-align: left;
+}
+
+#square {
+  text-align: center;
+  font-size: 300px;
+  color: White;
+}
+
+
