@@ -191,6 +191,7 @@ body.two h1{
   text-align: center;
   outline: none;
   text-decoration: none;
+  margin-bottom: 0em;
 }
 body.two h2{
   font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
@@ -206,6 +207,7 @@ body.two h2{
   text-align: center;
   outline: none;
   text-decoration: none;
+  margin-bottom: 0em;
 }
 body.two h3{
   font-family: "Lineto-Circular","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
@@ -237,19 +239,22 @@ body.two h3:hover{
 
 body.three {
   background-image: url(http://www.richardplank.com/wp-content/uploads/2011/11/Sol-LeWitt.jpg);
-  background-size: cover;
+  background-position: center center, center top;
+  background-repeat: repeat;
   position: absolute;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Abril Fatface", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.5;
   color: Black;
   margin: 0 auto;
-  margin-top: 100px;
   margin-bottom: 100px;
-  width: 600px;
   padding-left: 70px;
+}
+
+body.three #orange {
+  color: rgb(255, 99, 71);
 }
 
 body.three .container {
@@ -258,14 +263,16 @@ body.three .container {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
+  width: 600px;
 }
 
-body.three header{
+body.three h1{
   font-family: "Abril Fatface", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: 10px;
   color: white;
-  font-size: 100px;
+  text-align: center;
+  font-size: 200px;
   font-style: normal;
   color: White;
   text-rendering: optimizeLegibility;
@@ -433,12 +440,16 @@ body.eight .blue:hover {
 
 /* STYLE NINE */
 
+body.nine #banner {
+  width: 100%;
+}
+
 body.nine {
-  background-image: url(http://www.field.io/wp-content/uploads/2013/07/walldrawing130.png);
-  background-size: cover;
+  background-image: url(http://www.ericdoeringer.com/ConArtRec/LeWitt/LeWitt-WD104Closeup.jpg);
+  background-image: repeat;
   font-family: 'Nunito', sans-serif;
   font-style: 300;
-  line-height: 2;
+  line-height: 1.4;
   font-size: .9rem;
   color: #5c5c5f;
 }
@@ -446,7 +457,7 @@ body.nine {
 body.nine #header {
   text-align: left;
   border-bottom: dotted;
-  border-width: .2rem;
+  border-width: .15rem;
 }
 body.nine h1, h2, h3{
   font-family: 'Nunito', sans-serif;
