@@ -114,3 +114,19 @@ h3 {
 #How:hover {
   font-size: 300px;
 }
+
+#Guide {
+  font-family: 'Medula One', cursive;
+  font-size: 300px;
+  color: #ffc500;
+  letter-spacing: 2px;
+  position: absolute;
+    left: 2000px;
+    top: 150px;
+    z-index: 2;
+}
+
+#Guide:hover {
+  color: #ffc500;
+  opacity: 0.5;
+}
