@@ -8,8 +8,8 @@ body {
 body.index {
   background-image: url(https://justinphillipson.files.wordpress.com/2008/02/sollewitt1.jpg);
   background-size: cover;
-  font-family: 'Josefin Slab', serif;
-  font-weight: Bold 700;
+  font-family: 'Geo', sans-serif;
+  font-weight: 400;
   line-height: 1;
   padding-bottom: 30px;
 }
@@ -26,38 +26,44 @@ body.index a:hover {
 }
 
 body.index h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Geo', sans-serif;
+  font-weight: 400;
   color: White;
   padding-top: 30px;
   letter-spacing: 2px;
-  font-weight: Bold 700;
   text-transform: uppercase;
-  margin-bottom: 0;
+  padding: 0;
+  margin-bottom: 30px;
 }
-body.index h2 {
-  font-family: 'Josefin Slab', serif;
+body.index h3, body.index h2{
+  font-family: 'Geo', sans-serif;
+  font-weight: 400;
   color: Black;
+  margin-top: 10px;
   letter-spacing: 2px;
-  font-weight: Bold 700;
   font-size: 20px;
-  margin-bottom: 0;
-}
-body.index h3 {
-  font-family: 'Josefin Slab', serif;
-  color: Black;
-  letter-spacing: 2px;
-  font-weight: Bold 700;
-  font-size: 20px;
-  padding-bottom: 1rem;
+  margin-bottom: 25px;
+  text-align: right;
 }
 body.index h1:hover {
   letter-spacing: 30px;
 }
 body.index h2:hover {
-  font-size: 30px;
+  letter-spacing: 60px;
 }
 body.index h3:hover {
-  font-size: 30px;
+  letter-spacing: 25px;
+}
+
+body.index #right {
+  text-align: right;
+  padding-right: 20px;
+  float: right;
+  padding-top: 20px;
+}
+
+a:visited {
+  color: orange;
 }
 
 /* SOURCES PAGE */
