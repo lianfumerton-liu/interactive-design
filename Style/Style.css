@@ -62,8 +62,8 @@ body.index #right {
   padding-top: 20px;
 }
 
-a:visited {
-  color: orange;
+body.index a:visited {
+  color: Orange;
 }
 
 /* SOURCES PAGE */
