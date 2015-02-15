@@ -11,6 +11,7 @@ body.index {
   font-family: 'Josefin Slab', serif;
   font-weight: Bold 700;
   line-height: 1;
+  padding-bottom: 30px;
 }
 
 body.index a {
@@ -27,6 +28,7 @@ body.index a:hover {
 body.index h1 {
   font-family: 'Josefin Slab', serif;
   color: White;
+  padding-top: 30px;
   letter-spacing: 2px;
   font-weight: Bold 700;
   text-transform: uppercase;

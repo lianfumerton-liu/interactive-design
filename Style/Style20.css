@@ -29,7 +29,7 @@ body.twenty {
   padding-top: 70px;
   letter-spacing: 1px;
   padding-left: 200px;
-  padding-bottom: 123px;
+  padding-bottom: 170px;
   overflow-y: hidden;
 }
 
@@ -39,9 +39,8 @@ h1 {
   font-size: 40px;
   -webkit-transform: rotate(-90deg);
   position: fixed;
-  width: 100%;
-  top: -200px;
-  margin-left: -845px;
+  top:  342px;
+  left: -78px;
 
 }
 

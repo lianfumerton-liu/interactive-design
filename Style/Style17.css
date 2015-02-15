@@ -57,6 +57,7 @@ body.seventeen {
 h1 {
   font-family: 'steps-monoregular';
   font-weight: normal; 
+  text-align: left;
   font-style: normal; 
   letter-spacing: 5px;
   font-size: 100px;
