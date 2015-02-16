@@ -1,0 +1,47 @@
+.container {
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+h1, h2 {
+  font-family: 'Sancreek', cursive;
+  color: rgb(240, 152, 25);
+  font-size: 30px;
+  font-style: normal;
+  height: 100%;
+  padding-top: 0px;
+  letter-spacing: 5px;
+  -webkit-transform: rotate(-25deg);
+  text-transform: Uppercase;
+  border-style: groove;
+  border-color: rgb(240, 152, 25);
+  border-width: 40px;
+  padding-left: 10px;
+}
+
+body {
+  background-color: Black;
+}
+
+.link {
+  -webkit-transform: rotate(-45deg);
+}
+
+a {
+  font-family: 'Sancreek', cursive;
+  font-size: 30px;
+  color: rgb(211, 197, 101);
+  border-style: groove;
+  border-color: rgb(211, 197, 101);
+  border-width: 40px;
+  padding-left: 10px;
+  padding-right: 1000px;
+}
+
+
+h1:hover {
+  -webkit-transform: rotate(-40deg);
+}
+h2:hover {
+  -webkit-transform: rotate(-4deg);
+}
