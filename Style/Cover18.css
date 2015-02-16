@@ -1,0 +1,46 @@
+
+
+body.container {
+  display: inline-block;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Geo', sans-serif; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: justify;
+  text-decoration: underline;
+  letter-spacing: 100px;
+  font-size: 20px;
+  color: Black;
+  z-index: 1;
+  margin-bottom: 0px;
+  background-color: rgb(250, 201, 250);
+
+}
+
+body {
+	text-align: left;
+	border-style: solid;
+	border-color: Blue;
+	padding-bottom: 3px;
+    border-width: 30px;
+}
+
+a {
+  font-family: 'Geo', sans-serif;  
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: justify;
+  letter-spacing: 0px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 32, 56);
+  padding-right: 70px;
+  z-index: 1;
+}
+
+h1:hover {
+	color: Blue;
+}
