@@ -1,0 +1,76 @@
+body {
+  margin: 25px;
+}
+
+@font-face {
+    font-family: 'steps-monoregular';
+    src: url('steps-mono-webfont.eot');
+    src: url('steps-mono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('steps-mono-webfont.woff2') format('woff2'),
+         url('steps-mono-webfont.woff') format('woff'),
+         url('steps-mono-webfont.ttf') format('truetype'),
+         url('steps-mono-webfont.svg#steps-monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'steps-monomono_thin';
+    src: url('steps-mono-thin-webfont.eot');
+    src: url('steps-mono-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('steps-mono-thin-webfont.woff2') format('woff2'),
+         url('steps-mono-thin-webfont.woff') format('woff'),
+         url('steps-mono-thin-webfont.ttf') format('truetype'),
+         url('steps-mono-thin-webfont.svg#steps-monomono_thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.container {
+  display: inline-block;
+  text-align: justify;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1 {
+  font-family: 'steps-monoregular';
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: justify;
+  text-decoration: underline;
+  letter-spacing: 100px;
+  font-size: 880px;
+  color: rgb(0, 32, 56);
+  opacity: 1;
+  z-index: 1;
+  margin-top: -110px;
+  line-height: .95;
+  margin-left: -70px;
+  margin-bottom: 0px;
+
+}
+
+.color {
+  color: rgb(238, 159, 126);
+}
+
+body {
+	background-image: url(halftone.jpg);
+  opacity: 1;
+  background-size: cover;
+  background-size: 18900px 900px;
+	text-align: left;
+}
+
+a {
+	font-family: 'steps-monoregular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: justify;
+  letter-spacing: 0px;
+  font-size: 100px;
+  text-decoration: none;
+  color: rgb(0, 32, 56);
+  padding-right: 70px;
+  z-index: 1;
+}
