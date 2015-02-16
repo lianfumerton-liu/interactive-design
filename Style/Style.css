@@ -12,6 +12,8 @@ body.index {
   font-weight: 400;
   line-height: 1;
   padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 body.index a {
@@ -59,11 +61,11 @@ body.index #right {
   text-align: right;
   padding-right: 20px;
   float: right;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 body.index a:visited {
-  color: Orange;
+  color: DeepPink;
 }
 
 /* SOURCES PAGE */
