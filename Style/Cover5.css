@@ -1,0 +1,40 @@
+h1, h2{
+  font-family: "Raleway",sans-serif;
+  color: rgb(254, 218, 82);
+  text-rendering: geometricPrecision;
+  font-size: 6000px;
+  text-align: right;
+  line-height: .875em;
+  letter-spacing: -.06em;
+  font-weight: 100;
+  margin: 0 0 35px -.08em;
+  opacity: 1;
+  -webkit-text-stroke-width: 30px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  color: black;
+  -webkit-text-stroke-width: 30px;
+  -webkit-text-stroke-color: rgb(254, 218, 82);
+}
+
+body {
+  background-color: red;
+  font-family: "Raleway",sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: rgb(122, 109, 68);
+  x-overflow: hidden;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 400px;
+  box-shadow: 6px 6px 30px black;
+}
