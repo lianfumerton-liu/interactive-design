@@ -1,0 +1,51 @@
+.container {
+font-family: "apercuregular", sans-serif;
+background: rgb(250, 255, 255);
+color: #121212;
+font-size: 100%;
+margin: 0;
+padding: 0;
+text-align: left;
+position: relative;
+line-height: 1;
+width: 540px;
+padding-top: 350px;
+margin: 0 auto;
+}
+
+h1, h2{
+  font-family: "apercuregular", sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+  width: 540px;
+  color: #111111;
+  font font-weight: bold;
+  text-align: center;
+  padding-bottom: -100px;
+}
+a {
+  font-family: "Consolas", monospace;
+  font-size: 500px;
+  letter-spacing: -200px;
+  color: white;
+  opacity: 0;
+  z-index: 1;
+  font font-weight: bold;
+  text-decoration: none;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: blue;
+}
+
+.arrow {
+  position: absolute;
+  left: -20px;
+  top: 140px;
+}
+
+a:hover {
+  letter-spacing: 20px;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
