@@ -1,0 +1,43 @@
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: White;
+  font-size: 11px;
+  text-align: center;
+  margin-top: -190px;
+}
+body {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.2;
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  width: 518px;
+  margin-top: 60px;
+  margin-left: -259px;
+  text-align: left;
+  z-index: -2;
+}
+
+#square {
+  text-align: center;
+  font-size: 300px;
+  color: White;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  margin: 0 auto;
+  top: 87px;
+  left: 155px;
+  height: 180px;
+  width: 200px;
+  z-index: -1
+}

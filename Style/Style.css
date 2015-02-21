@@ -406,7 +406,9 @@ body.seven h2,h3 {
   line-height: 0px;
 }
 body.seven {
-  background-color: black;
+  background-image: url(http://payload119.cargocollective.com/1/6/214008/4689223/spacetravel.gif);
+  background-attachment: fixed;
+  background-repeat: repeat;
   font-family: "Times New Roman", Times, serif;
   line-height: 1.2;
   color: white;
