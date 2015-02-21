@@ -373,12 +373,13 @@ body.six {
   color: #0C2736;
   text-align: right;
 }
-body.six h1,h2,h3 {
+body.six h1, body.six h2, body.six h3 {
   font-size: 2em;
   margin-top: 50px;
   font-family: "academica_light", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-weight: normal;
   line-height: 0;
+  color: black;
 }
 #bar {
   position: inline-block;
