@@ -1,0 +1,39 @@
+.container {
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+body{
+    background-color: rgb(255, 0, 82);
+    font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+    line-height: 1.2;
+    color: White;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1 {
+  font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-bottom: 10px;
+    letter-spacing: 20px;
+    line-height: 2;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1:hover{
+  -webkit-transform: rotateY(2020deg);
+  -webkit-transition: all 10s;
+}
+
+img:hover {
+  -webkit-transform: rotateY(1240deg);
+  -webkit-transition: all 10s;
+}

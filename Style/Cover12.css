@@ -1,0 +1,38 @@
+.container {
+  display: block;
+  background: none;
+  padding: 16px;
+  height: 203px;
+  width: 15%;
+  margin: 0 auto;
+  text-align: left
+}
+
+body {
+  background: #BEC6C9;
+  font-family: 'Inconsolata', "Courier New", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-family: 'Inconsolata', courier new, courier;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  border: 1px solid black;
+  height: 700px;
+  margin: 90px;
+}
+
+h1 {
+  padding-top: 250px;
+}
+
+body:hover {
+background: #FDEE2F;
+cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
