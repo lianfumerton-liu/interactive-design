@@ -1,0 +1,44 @@
+body {
+  margin: 25px;
+}
+
+body.ten .container {
+  display: inline-block;
+  text-align: left;
+  width: 10%;
+  padding-right: 500px;
+  padding-top: 30px;
+}
+
+body.ten h1{
+  position: relative;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: underline;
+  line-height: 1.3;
+  color: white;
+}
+body.ten p {
+  position: relative;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: underline;
+  line-height: 1.3;
+  color: white;
+}
+
+body.ten a {
+  color: purple;
+}
+
+body.ten a:hover {
+  color: blue;
+}
