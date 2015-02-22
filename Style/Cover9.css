@@ -1,0 +1,47 @@
+body {
+  background: 
+   url(CloseUp.jpg) repeat;
+  font-family: 'Nunito', sans-serif;
+  font-style: 300;
+  line-height: 1.4;
+  font-size: .9rem;
+  color: #5c5c5f;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-style: 300;
+  font-size: 1rem;
+  color: #5c5c5f;
+  text-align: left;
+
+}
+
+.container {
+  display: inline-block;
+  text-align: left;
+  padding-top: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  font-size: 300px;
+  z-index: 1;
+  position: absolute;
+  line-height: 5;
+  margin-top: -500px;
+  margin-bottom: 0;
+  cursor: move;
+
+}
+
+hr {
+  border-style: none;
+  color: white;
+  border-bottom: dotted;
+  border-width: .15rem;
+  z-index: 2;
+}
