@@ -8,7 +8,7 @@
 body {
   font-family: "academica_light", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   line-height: 1.5;
-  color: white;
+  background: #f5f6f7;
   text-align: right;
   cursor: n-resize;
   text-decoration: none;
