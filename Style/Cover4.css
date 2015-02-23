@@ -30,7 +30,7 @@ a {
   font-family: "Consolas", monospace;
   font-size: 500px;
   letter-spacing: -200px;
-  color: white;
+  color: rgb(250, 255, 255);
   opacity: 0;
   z-index: 1;
   font font-weight: bold;
