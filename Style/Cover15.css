@@ -25,14 +25,37 @@ h1 {
   box-shadow: 100px 50px 100px Green;
   -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: black;
+   -webkit-animation: in 1s;
+   -webkit-animation-fill-mode: forwards;
 }
 
 a {
   text-decoration: none;
 }
 
-h1:hover {
+/* h1:hover {
   color: Green;
   line-height: 50px;
   -webkit-transition: all 2s ease-in-out;
+}
+
+
+.intern {
+    -webkit-animation: in 1s;
+}
+*/
+
+h1:hover {
+    -webkit-animation: out 2s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes in {
+    0%   { line-height: 50px;}
+    100% { line-height:18px;}
+}
+
+@-webkit-keyframes out {
+    0%   { line-height:18px; }
+    100% { line-height:50px; }
 }
