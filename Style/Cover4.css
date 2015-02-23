@@ -1,6 +1,5 @@
 .container {
 font-family: "apercuregular", sans-serif;
-background: rgb(250, 255, 255);
 color: #121212;
 font-size: 100%;
 margin: 0;
@@ -11,6 +10,10 @@ line-height: 1;
 width: 540px;
 padding-top: 350px;
 margin: 0 auto;
+}
+
+body {
+  background: rgb(250, 255, 255);
 }
 
 h1, h2{
