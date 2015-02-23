@@ -3,6 +3,7 @@ body {
   border-style: solid;
   border-width: 10px;
   border-color: rgb(255, 99, 71);
+  border-bottom:none;
   font-family: "Abril Fatface", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -11,6 +12,7 @@ body {
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 884px;
+  overflow: hidden;
 }
 
 
