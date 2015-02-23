@@ -1,0 +1,38 @@
+
+.container {
+  display: inline block;
+  text-align: justify;
+  width: 25%;
+  margin: 0 auto;
+}
+
+body {
+  text-align: right;
+  padding: 0px;
+  font-family: tahoma,arial,sans-serif;
+  color: black;
+}
+
+h1 {
+  padding: 4px 40px;
+  background-color: black;
+  text-align: center;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 100px;
+  color: white;
+  box-shadow: 100px 50px 100px Green;
+  -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1:hover {
+  color: Green;
+  line-height: 50px;
+  -webkit-transition: all 2s ease-in-out;
+}
