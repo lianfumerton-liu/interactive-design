@@ -130,3 +130,23 @@ h3 {
   color: #ffc500;
   opacity: 0.5;
 }
+
+#interview {
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 40px;
+  margin-bottom: 10px;
+  color: blue;
+   position: absolute;
+    left: 300px;
+    top: 550px;
+    z-index: 2;
+
+}
+#interview:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
