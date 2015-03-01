@@ -17,6 +17,7 @@ h1, h2 {
   border-color: rgb(240, 152, 25);
   border-width: 40px;
   padding-left: 10px;
+  -webkit-transition: all .5s ease-in-out;
 }
 
 body {
@@ -41,7 +42,9 @@ a {
 
 h1:hover {
   -webkit-transform: rotate(-40deg);
+  -webkit-transition: all .5s ease-in-out;
 }
 h2:hover {
   -webkit-transform: rotate(-4deg);
+  -webkit-transition: all .5s ease-in-out;
 }

@@ -31,6 +31,7 @@ h1, h2, h3 {
   background-color: rgb(0, 255, 242);
   margin: -40px;
   cursor: n-resize;
+  -webkit-transition: all 4s ease-in-out;
 }
 
 p {
@@ -53,7 +54,4 @@ header {
 #bar:hover {
   height: 217px;
   -webkit-transition: all 4s ease-in-out;
-  -moz-transition: all 4s ease-in-out;
-  -o-transition: all 4s ease-in-out;
-  transition: all 4s ease-in-out;
 }
