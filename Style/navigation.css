@@ -1,0 +1,83 @@
+#lefthand {  
+	width: 50px;
+	height: 40px;
+	position: fixed;
+	display: inline block;
+	top: 677px;
+	right: 0px;
+    background:url(pixelhand.jpg);
+    -webkit-transform: rotate(-180deg);
+  	background-size:cover;
+	overflow:hidden;
+	-webkit-transition: all .25s ease;
+}
+
+#righthand {  
+	width: 50px;
+	height: 40px;
+	position: fixed;
+	display: inline block;
+    top: 637px;
+	right: 0px;
+    background:url(pixelhand.jpg);
+    -webkit-transform: rotate(0deg); 
+  	background-size:cover;
+	overflow:hidden;
+	-webkit-transition: all .25s ease;
+}
+
+#home {
+	width: 34px;
+	height: 37px;
+	position: fixed;
+	display: block;
+    top: 600px;
+	right: 0px;
+    background:url(home.jpg);
+  	background-size: cover;
+	overflow:hidden;
+	-webkit-transition: all .25s ease;
+}
+
+#overlay {  
+	background: rgba(102,0,153,.45);
+    text-align:center;
+    padding:100px 0 66px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+#lefthand:hover #overlay, #righthand:hover #overlay, #home:hover #overlay {
+    opacity:1;
+}
+
+#lefthand:hover, #righthand:hover {
+    width: 80px;
+	height: 60px;
+	-webkit-transition: all .25s ease;
+}
+
+#righthand:hover + #lefthand {
+	top: 697px;
+}
+
+#home:hover {
+	width: 50px;
+	height: 53px;
+	top: 584px;
+	-webkit-transition: all .25s ease;
+}
+
+.nav a {
+	text-decoration: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: auto;
+	transition: none;
+}
+
+
+
+
