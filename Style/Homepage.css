@@ -1,0 +1,133 @@
+
+
+.container {
+  display: inline block;
+  text-align: justify;
+  width: 15%;
+  margin-left: 40px; 
+}
+
+body {
+  text-align: right;
+  padding: 0px;
+  font-family: tahoma,arial,sans-serif;
+  color: black;
+  background: url(http://supercolortuts.com/Tuts_Files/Freebies/Patterns/Photoshop_Transparent_Canvas_Pattern/Photoshop_Transparent_Canvas_Pattern.jpg);
+  background-repeat: repeat;
+
+}
+
+h1 {
+  padding: 4px 40px;
+  background: url(http://supercolortuts.com/Tuts_Files/Freebies/Patterns/Photoshop_Transparent_Canvas_Pattern/Photoshop_Transparent_Canvas_Pattern.jpg);
+  text-align: center;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 50px;
+  color: blue;
+  box-shadow: 100px 50px 150px Blue;
+  z-index: 1;
+  padding: 20px;
+  text-decoration: underline;
+    -webkit-transition: line-height 1s ease-in-out, opacity 1s ease-in-out, color 1s ease-in-out;
+}
+
+#list {
+  position: absolute;
+  top: 370px;
+  left: 500px;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 15px;
+  padding-right: 30px;
+  background: url(http://supercolortuts.com/Tuts_Files/Freebies/Patterns/Photoshop_Transparent_Canvas_Pattern/Photoshop_Transparent_Canvas_Pattern.jpg);
+  background-repeat: no-repeat;
+  box-shadow: -35px 40px 100px Blue;
+  z-index: -1;
+}
+
+#list2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 15px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+#sources {
+  position: absolute;
+  padding: 50px;
+  top: 500px;
+  left: 800px;
+  font-family: tahoma,arial,sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 15px;
+  background: url(http://supercolortuts.com/Tuts_Files/Freebies/Patterns/Photoshop_Transparent_Canvas_Pattern/Photoshop_Transparent_Canvas_Pattern.jpg);
+  background-repeat: no-repeat;
+  box-shadow: 35px 40px 100px Blue;
+}
+
+#hand {
+  background: url(pixelhand.jpg);
+  background-size: cover;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  left: 350px;
+  -webkit-transition: all .25s ease;
+}
+
+#home {
+  background: url(home.jpg);
+  background-size: cover;
+  width: 34px;
+  height: 37px;
+  position: absolute;
+  top: 450px;
+  left: 950px;
+  -webkit-transition: all .25s ease;
+}
+
+#home2 {
+  background: url(home.jpg);
+  background-size: cover;
+  width: 34px;
+  height: 37px;
+  position: absolute;
+  top: 320px;
+  left: 0px;
+  -webkit-transition: all .25s ease;
+}
+
+
+h1:hover {
+  line-height: 54px;
+  color: rgb(85, 26, 139);
+    -webkit-transition: line-height 1s ease-in-out, opacity 1s ease-in-out, color 1s ease-in-out;
+}
+
+#overlay {  
+  background: rgba(85, 26, 139,.3);
+    text-align:center;
+    padding:5px 0 34px 0;
+    background-size: cover;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+#hand:hover #overlay, #home:hover #overlay, #home2:hover #overlay {
+    opacity:1;
+    -webkit-transition: all .25s ease;
+}
+
+
+
