@@ -27,7 +27,7 @@ body{
 }
 
 #clockimage {
-  width: 55px;
+  width: 30px;
   height: 70px;
   background: url(check.png);
   box-shadow: 3px 3px 1px Blue;
@@ -80,7 +80,6 @@ body{
   background: url(check.png);
   box-shadow: 3px 3px 1px Blue;
   position: fixed;
-  display: inline-block;
   top: 10px;
   right: 0px;
   z-index: 3;
@@ -106,7 +105,7 @@ body{
 }
 
 #name:hover {
-  opacity: .2;
+  opacity: 0;
   -webkit-transition: opacity 10s ease;
 }
 
