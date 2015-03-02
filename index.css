@@ -1,70 +1,115 @@
 #container {
   width: 1400px;
+  height: 1400px;
   margin: 0 auto; 
+  cursor: help;
 }
 
 body{
   /* background-color: rgb(254, 228, 206); */
-  background-image: url(Oil1.jpg);
-  background-size: 150px;
+  background-image: url(check.png);
+  background-size: 300px;
+  z-index: -1;
+  cursor: help;
+  overflow-x: hidden;
 }
 
-h1 {
-  font-family: 'NTR', sans-serif;
+#home {
+  width: 57px;
+  height: 40px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  top: 0px;
+  left: 10px;
+  z-index: 3;
+}
+
+#clockimage {
+  width: 55px;
+  height: 70px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  top: 0px;
+  left: 90px;
+  z-index: 3;
+}
+
+#snack {
+  width: 50px;
+  height: 50px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  bottom: 0px;
+  left: 1000px;
+  z-index: 3;
+}
+
+#glitter {
+  width: 60px;
+  height: 60px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  top: 500px;
+  left: 0px;
+  z-index: 3;
+}
+
+#cube {
+  width: 40px;
+  height: 40px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  top: 0px;
+  left: 1400px;
+  z-index: 3;
+}
+
+#guideimage {
+  width: 50px;
+  height: 70px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  display: inline-block;
+  top: 10px;
+  right: 0px;
+  z-index: 3;
+}
+
+
+
+#name {
+  color: rgb(249, 217, 221);
   font-size: 200px;
-  color: Lavender;
-  letter-spacing: 380px;
-  padding-left: 60px;
+  letter-spacing: 600px;
+  padding-left: 200px;
+  padding-top: 0px;
+  margin-top: -200px;
   text-align: center;
-  line-height: 10%;
-  text-shadow:
+  line-height: 700%;
+     text-shadow:
     -1px -1px 0 Blue,
-    5px -5px 0 Blue,
+    1px -1px 0 Blue,
     -1px 1px 0 Blue,
-    1px 1px 0 Blue;  
+    5px 5px 0 Blue; 
+    -webkit-transition: opacity 10s ease; 
 }
-h2 {
-  font-family: 'NTR', sans-serif;
-  font-size: 200px;
-  color: Lavender;
-  letter-spacing: 200px;
-  padding-left: 60px;
-  text-align: center;
-  line-height: 300%;
-  text-shadow:
-    -1px -1px 0 Blue,
-    5px -5px 0 Blue,
-    -1px 1px 0 Blue,
-    1px 1px 0 Blue;  
+
+#name:hover {
+  opacity: .2;
+  -webkit-transition: opacity 10s ease;
 }
-p {
-  font-family: 'NTR', sans-serif;
-  font-size: 200px;
-  color: Lavender;
-  position: absolute;
-    left: 740px;
-    top: 450px;
-    z-index: 1;
-  text-shadow:
-    -1px -1px 0 Blue,
-    5px -5px 0 Blue,
-    -1px 1px 0 Blue,
-    1px 1px 0 Blue;  
-}
-h3 {
-  font-family: 'NTR', sans-serif;
-  font-size: 200px;
-  text-align: right;
-  color: Lavender;
-  letter-spacing: 625px;
-  line-height: 0%;
-  padding-left: 60px;
-  text-shadow:
-    -1px -1px 0 Blue,
-    5px -5px 0 Blue,
-    -1px 1px 0 Blue,
-    1px 1px 0 Blue;  
-}
+
 #clock {
   font-family: sans-serif;
   font-size: 100px;
@@ -84,7 +129,6 @@ h3 {
 }
 
 #Style {
-  font-family: 'Indie Flower';
   font-size: 40px;
   text-align: right;
   color: Black;
@@ -92,7 +136,7 @@ h3 {
   padding-left: 70px;
   position: absolute;
     left: 1200px;
-    top: 700px;
+    top: 800px;
     z-index: 2;
 }
 #Style:hover {
@@ -107,7 +151,7 @@ h3 {
   padding-left: 70px;
   position: absolute;
     left: 500px;
-    top: 1060px;
+    top: 2060px;
     z-index: 2;
 }
 
@@ -140,8 +184,8 @@ h3 {
   margin-bottom: 10px;
   color: blue;
    position: absolute;
-    left: 300px;
-    top: 550px;
+    left: 1000px;
+    top: 5000px;
     z-index: 2;
 
 }
