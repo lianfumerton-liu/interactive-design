@@ -85,17 +85,6 @@ h1 {
   -webkit-transition: all .25s ease;
 }
 
-#home {
-  background: url(home.jpg);
-  background-size: cover;
-  width: 34px;
-  height: 37px;
-  position: absolute;
-  top: 450px;
-  left: 950px;
-  -webkit-transition: all .25s ease;
-}
-
 #home2 {
   background: url(home.jpg);
   background-size: cover;
