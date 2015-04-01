@@ -498,7 +498,7 @@
     left: 10px;
     width: 216px;
     height: 280px;
-    z-index: 51;
+    z-index: 2;
     -webkit-transition: 1s;
   }
   #notes {
