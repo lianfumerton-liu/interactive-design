@@ -1,4 +1,11 @@
 
+  #container {
+    height: 9000px;
+    width: 16600px;
+    background: Pink;
+    overflow: hidden;
+  }
+
   body { 
   margin: 0px;
   }
@@ -10,6 +17,9 @@
     font-size: 5000px;
     margin-bottom: 0px;
     z-index: 0;
+  }
+  img{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
   }
   #chicken {
     position: absolute;
@@ -36,6 +46,7 @@
     max-width: 3000px;
     height: auto;
     z-index: -2;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
 
    #classylamp {
@@ -46,7 +57,6 @@
     height: auto;
     z-index: 3;
   }
-
     #dotcarpet {
     position: absolute;
     top: 2204px;
@@ -64,6 +74,9 @@
     height: auto;
     z-index: 1;
   }
+  #deer:hover{
+    -webkit-transform: rotate(45deg);
+  }
   #grassroll {
     position: absolute;
     top: 10600px;
@@ -71,6 +84,7 @@
     width: 2000px;
     height: auto;
     z-index: -2;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #USA {
     position: fixed;
@@ -79,6 +93,7 @@
     width: 50px;
     height: auto;
     z-index: -40;
+   -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #sully {
     position: absolute;
@@ -95,6 +110,7 @@
     width: 100px;
     height: auto;
     z-index: 1;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
     #trophy {
     position: absolute;
@@ -119,6 +135,7 @@
     width: 140px;
     height: auto;
     z-index: -50;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #drawer {
     position: absolute;
@@ -127,6 +144,7 @@
     width: 420px;
     height: auto;
     z-index: 50;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
     -webkit-transition: top 2s;
   }
   #drawer:hover{
@@ -156,6 +174,7 @@
     width: 1430px;
     height: auto;
     z-index: -50;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #basketball {
     position: absolute;
@@ -164,6 +183,9 @@
     width: 740px;
     height: auto;
     z-index: 6;
+  }
+  #basketball:hover {
+    -webkit-transform: rotate(90deg);
   }
     #bonsai{
     position: absolute;
@@ -220,6 +242,7 @@
     width: 620px;
     height: auto;
     z-index: 1;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
   #cookie{
    position: absolute;
@@ -250,6 +273,7 @@
     width: 460px;
     height: auto;
     z-index: -50;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #snail{
    position: absolute;
@@ -266,6 +290,12 @@
     width: 190px;
     height: auto;
     z-index: 7;
+    -webkit-transition: 1s;
+  }
+  #birdhouse:hover + #dove{
+    top: 8870px;
+    left: 7380px;
+    -webkit-transition: 1s;
   }
   #cat{
    position: absolute;
@@ -314,6 +344,7 @@
     width: 1187px;
     height: auto;
     z-index: 6;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #genielamp{
    position: absolute;
@@ -386,6 +417,13 @@
   width: 1247px;
   height: auto;
   z-index: 3;
+  -webkit-transition: 8s;
+  }
+  #plant:hover{
+    left: 1530px;
+    top: 34px;
+    width: 1700px;
+    -webkit-transition: 8s;
   }
   #tv {
   position: absolute;
@@ -419,6 +457,12 @@
   height: auto;
   z-index: 3;
   }
+  #gnome:hover {
+    width: 5117px;
+    left: 12753px;
+    top: 8440px;
+    -webkit-transition: .2s;
+  }
   #garbagebag{
    position: absolute;
   top: 7309px;
@@ -426,6 +470,7 @@
   width: 2117px;
   height: auto;
   z-index: -2;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
   }
    #box{
    position: fixed;
@@ -437,11 +482,51 @@
   }
    #legalpad {
    position: fixed;
-  left: 0px;
-  top: 10px;
-  width: 317px;
+  left: 50px;
+  top: 30px;
+  width: 217px;
   height: auto;
   z-index: 1;
+  -webkit-transition: 1s;
+  }
+  #info {
+    font-family: 'Allan', cursive;
+    color: black;
+    font-size: 17pt;
+    position: fixed;
+    text-decoration: underline;
+    top: 10px;
+    left: 10px;
+    width: 216px;
+    height: 280px;
+    z-index: 51;
+    -webkit-transition: 1s;
+  }
+  #notes {
+    font-family: 'Allan', cursive;
+    color: black;
+    font-size: 12pt;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    width: 216px;
+    height: 280px;
+    z-index: 1;
+    padding-left: 30px;
+    -webkit-transition: 1s;
+  }
+  #info:hover + #legalpad {
+    width: 534px;
+    height: auto;
+    -webkit-transition: 1s;
+  }
+  #info:hover > #notes {
+    font-size: 40px;
+    top: 105px;
+    left: 120px;
+    width: 534px;
+    height: auto;
+    -webkit-transition: 1s;
   }
   #paperclip{
     position: absolute;
@@ -474,6 +559,7 @@
   width: 587px;
   height: auto;
   z-index: -1;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
   }
   #fence{
   position: absolute;
@@ -483,6 +569,241 @@
   height: auto;
   z-index: -1;
   }
+   #timer{
+  position: fixed;
+  top: 270px;
+  left: -3px;
+  width: 77px;
+  height: auto;
+  z-index: 50;
+  }
+  #cash{
+  position: fixed;
+  bottom: 0px;
+  left: 1160px;
+  width: 177px;
+  height: auto;
+  z-index: 50;
+  }
+  #bopit{
+  position: absolute;
+  top: 9480px;
+  left: 12050px;
+  width: 357px;
+  height: auto;
+  z-index: 0;
+  }
+   #cake{
+  position: absolute;
+  top: 10740px;
+  left: 11710px;
+  width: 807px;
+  height: auto;
+  z-index: 0;
+  }
+  #coins{
+  position: absolute;
+  top: 1820px;
+  left: 14350px;
+  width: 837px;
+  height: auto;
+  z-index: 3;
+  }
+  #cowboyhat{
+  position: absolute;
+  top: 5210px;
+  left: 12350px;
+  width: 327px;
+  height: auto;
+  z-index: 4;
+  }
+   #creature {
+    position: absolute;
+  top: 4800px;
+  left: 1740px;
+  width: 300px;
+  height: auto;
+  z-index: 1;
+  -webkit-transition: 30s;
+  }
+  #creature:hover {
+    top: -900px;
+  }
+  #dove {
+    position: absolute;
+  top: 6800px;
+  left: 4940px;
+  width: 740px;
+  height: auto;
+  z-index: 5;
+  }
+   #hula{
+   position: absolute;
+  top: 5370px;
+  left: 15290px;
+  width: 1257px;
+  height: auto;
+  z-index: -5;
+  }
+    #leaves{
+  position: absolute;
+  top: 11570px;
+  left: 5389px;
+  width: 997px;
+  height: auto;
+  z-index: 0;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  }  
+  #slinky{
+    position: absolute;
+  top: 9770px;
+  left: 9389px;
+  width: 327px;
+  height: auto;
+  z-index: 5;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  -webkit-transition: 2s;
+  }
+  #slinky:hover{
+    -webkit-transform: rotate(390deg);
+    -webkit-transition: 2s;
+  }
+   #newspapers {
+  position: absolute;
+  top: 1640px;
+  left: 1540px;
+  width: 2020px;
+  height: auto;
+  z-index: -1;
+  }
+  #balloon{
+  position: absolute;
+  top: -20px;
+  left: 3800px;
+  width: 187px;
+  height: auto;
+  z-index: -55;
+  -webkit-filter: drop-shadow(0px 0px 0px #222);
+  }
+  #santahat{
+    position: absolute;
+  top: 1131px;
+  left: 13880px;
+  width: 190px;
+  height: auto;
+  z-index: -50;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  }
+   #shrub{
+   position: absolute;
+  top: 8730px;
+  left: 1690px;
+  max-width: 850px;
+  height: auto;
+  z-index: -1;
+  }
+  #toilet{
+  position: absolute;
+  top: 1390px;
+  left: 15870px;
+  width: 570px;
+  height: auto;
+  z-index: 1;
+  }
+  #sword{
+  position: absolute;
+  top: 4390px;
+  left: 15870px;
+  width: 240px;
+  height: auto;
+  z-index: 10;
+  }
+   #steak{
+   position: absolute;
+  top: 5390px;
+  left: 14570px;
+  width: 90px;
+  height: auto;
+  z-index: 0;
+  }
+   #stool{
+    position: absolute;
+  top: 5280px;
+  left: 13380px;
+  width: 1240px;
+  height: auto;
+  z-index: -55;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  }
+    #toaster{
+    position: absolute;
+  top: 8620px;
+  left: 10180px;
+  width: 770px;
+  height: auto;
+  z-index: 30;
+  }
+  #toast{
+  position: absolute;
+  top: 8500px;
+  left: 10400px;
+  width: 450px;
+  height: auto;
+  z-index: 2;
+  -webkit-transition: .5s;
+  }
+  #toaster:hover + #toast{
+    top: 6900px;
+  }
+   #opensign{
+    position: absolute;
+  top: 30px;
+  left: 900px;
+  width: 270px;
+  height: auto;
+  z-index: 1;
+  }
+  #gate{
+  position: absolute;
+  top: 6360px;
+  left: 11860px;
+  width: 1520px;
+  height: auto;
+  z-index: 5;
+  }
+  #bills{
+  position: fixed;
+  top: -130px;
+  left: 60px;
+  width: 570px;
+  height: auto;
+  z-index: 60;
+  opacity: 0;
+  }
+  #cash:hover ~ #bills {
+    opacity: 100;
+  }
+
+  #postit {
+    font-family: 'Allan', cursive;
+    color: black;
+    background-color: rgb(0,255,0);
+    font-size: 12pt;
+    position: fixed;
+    top: 410px;
+  left: 29px;
+    width: 100px;
+    height: 100px;
+    z-index: 50;
+    padding-left: 5px;
+    opacity: 0;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  }
+  #timer:hover ~ #postit {
+    opacity: 100;
+  }
+
+
 
 
 
