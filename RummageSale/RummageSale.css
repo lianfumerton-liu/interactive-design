@@ -838,6 +838,43 @@
   padding: 0;
 }
 
+  @media screen and (max-width: 480px) {
+    #folder {
+      width: 50px;
+    }
+    #listofthings {
+      opacity: 0;
+    }
+    #postit {
+      width: 70px;
+      height: 70px;
+      font-size: 12px;
+      top: 380px;
+    }
+    #timer {
+      width:50px;
+    }
+    #legalpad{
+      width: 100px;
+      left: 20px;
+      top: 40px;
+    }
+    #notes {
+      font-size: 12px;
+      top: 55px;
+      left: 38px;
+      line-height: 12.5px;
+    }
+    #info {
+      font-size: 18px;
+    }
+    #box {
+      width: 60px;
+      top: 400px;
+      right: 40px;
+    }
+  }
+
 
 
 
