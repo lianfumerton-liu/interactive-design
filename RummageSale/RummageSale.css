@@ -59,6 +59,15 @@
     height: auto;
     z-index: 3;
   }
+    #classylamp2 {
+    position: absolute;
+    top: 400px;
+    left: 6000px;
+    width: 900px;
+    height: auto;
+    z-index: 3;
+    display: none;
+  }
     #dotcarpet {
     position: absolute;
     top: 2204px;
