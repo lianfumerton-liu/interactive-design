@@ -11,7 +11,7 @@ body{
   background-size: 300px;
   z-index: -1;
   cursor: help;
-  overflow-x: hidden;
+
 }
 
 #home {
@@ -81,6 +81,17 @@ body{
   box-shadow: 3px 3px 1px Blue;
   position: fixed;
   top: 10px;
+  right: 0px;
+  z-index: 3;
+}
+
+#cash {
+  width: 80px;
+  height: 60px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  bottom: 200px;
   right: 0px;
   z-index: 3;
 }
@@ -191,5 +202,20 @@ body{
 #interview:hover {
   color: purple;
   text-decoration: underline;
+}
+
+#Rummage {
+  font-family: 'Allan', cursive;
+  font-size: 800px;
+  color: Red;
+  letter-spacing: 2px;
+  position: absolute;
+    left: 2500px;
+    top: 2550px;
+    z-index: 2;
+}
+
+#Rummage:hover{
+  -webkit-filter: drop-shadow(10px 10px 10px #222);
 }
 
