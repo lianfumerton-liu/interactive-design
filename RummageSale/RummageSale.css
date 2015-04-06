@@ -59,14 +59,13 @@
     height: auto;
     z-index: 3;
   }
-    #classylamp2 {
-    position: absolute;
-    top: 400px;
-    left: 6000px;
+  #onlamp{
+     position: absolute;
+    top: 209px;
+    left: 5982px;
     width: 900px;
     height: auto;
     z-index: 3;
-    display: none;
   }
     #dotcarpet {
     position: absolute;
@@ -258,6 +257,13 @@
     width: 1510px;
     height: auto;
     z-index: 7;
+    -webkit-transition: .5s;
+  }
+    #croc:hover + #steak {
+   top: 7650px;
+    left: 12810px;
+    z-index: 6;
+   -webkit-transition: .5s;
   }
   #chandelier{
    position: absolute;
@@ -314,6 +320,11 @@
     width: 190px;
     height: auto;
     z-index: 7;
+    -webkit-transition: 300s;
+  }
+   #snail:hover {
+    left:-100px;
+    -webkit-transition: 300s;
   }
    #birdhouse{
    position: absolute;
@@ -353,13 +364,40 @@
     height: auto;
     z-index: 4;
   }
+   #umbrellaclosed{
+  position: absolute;
+  top: 4370px;
+  left: 11720px;
+  width: 967px;
+  height: auto;
+  z-index: 4;
+  -webkit-transform: rotate(20deg);
+  }
    #pizza{
    position: absolute;
     top: 2420px;
     left: 16090px;
     width: 507px;
     height: auto;
-    z-index: -1;
+    z-index: 1;
+  }
+  #chomp {
+    position: absolute;
+  top: 2570px;
+  left: 15470px;
+  width: 507px;
+  height: auto;
+  z-index: -3;
+    -webkit-filter: drop-shadow(0px 0px 0px white);
+    -webkit-transition: 4s;
+  }
+  #pizza:hover + #chomp {
+    top: 2570px;
+  left: 15870px;
+  width: 507px;
+  height: auto;
+  z-index: -3;
+  -webkit-transition: 4s;
   }
   #iron{
    position: absolute;
@@ -394,6 +432,18 @@
     height: auto;
     z-index: 7;
   }
+  #fire{
+    position: absolute;
+  top: 8970px;
+  left: 5749px;
+  width: 417px;
+  height: auto;
+  z-index: 7;
+  opacity: 0;
+  }
+  #matchbox:hover + #fire{
+    opacity: 100;
+  }
   #mop{
    position: absolute;
     top: 8440px;
@@ -410,19 +460,47 @@
     height: auto;
     z-index: 2;
   }
+  #eyes{
+   position: absolute;
+  top: 4000px;
+  left: 3389px;
+  width: 1117px;
+  height: auto;
+  z-index: 2;
+  }
   #gazebo{
    position: absolute;
     top: 10030px;
     left: 400px;
     width: 567px;
     height: auto;
-    z-index: -1;
+    z-index: 0;
+  }
+  #person{
+   position: absolute;
+  top: 9940px;
+  left: 480px;
+  width: 127px;
+  height: auto;
+  z-index: 0;
+  opacity: -1;
+  }
+  #gazebo:hover + #person{
+    opacity: 100;
   }
    #hair{
    position: absolute;
     top: 1730px;
     left: 3800px;
     width: 917px;
+    height: auto;
+    z-index: 3;
+  }
+  #wig {
+    position: absolute;
+    top: 1830px;
+    left: 4100px;
+    width: 370px;
     height: auto;
     z-index: 3;
   }
@@ -441,6 +519,13 @@
   width: 1527px;
   height: auto;
   z-index: 3;
+   -webkit-transition: 1s;
+  }
+  #oillamp:hover {
+    left: 1200px;
+    top: 9090px;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: 1s;
   }
   #plant {
   position: absolute;
@@ -464,6 +549,19 @@
   width: 3377px;
   height: auto;
   z-index: 1;
+  }
+    #explosion {
+      position: absolute;
+  top: 2570px;
+  left: 6860px;
+  width: 698px;
+  height: auto;
+  z-index: 2;
+  opacity: 0;
+  }
+  #tv:hover + #explosion {
+    opacity: 100;
+    -webkit-transition: 5s;
   }
   #book {
   position: absolute;
@@ -510,7 +608,20 @@
   bottom: 100px;
   width: 117px;
   height: auto;
-  z-index: -1;
+  z-index: 0;
+  }
+  #jackball {
+     position: fixed;
+  right: 110px;
+  bottom: 133px;
+  width: 37px;
+  height: auto;
+  z-index: -2;
+  -webkit-transition: 1s;
+  }
+  #box:hover + #jackball{
+  bottom: 353px;
+  -webkit-transition: 1s;
   }
    #legalpad {
    position: fixed;
@@ -582,6 +693,25 @@
   width: 187px;
   height: auto;
   z-index: 0;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  }
+   #obama2{
+     position: absolute;
+  top: 5300px;
+  left: 8050px;
+  width: 87px;
+  height: auto;
+  z-index: -1;
+  -webkit-transition: 3s;
+  }
+  #obama:hover + #obama2 {
+    position: absolute;
+  top: 5200px;
+  left: 8010px;
+  width: 177px;
+  height: auto;
+  z-index: -1;
+  -webkit-transition: 3s;
   }
    #cds{
   position: absolute;
@@ -685,6 +815,14 @@
   z-index: 0;
   -webkit-filter: drop-shadow(0px 0px 0px white);
   }  
+  #leavesScattered{
+  position: absolute;
+  top: 10720px;
+  left: 5389px;
+  width: 1527px;
+  height: auto;
+  z-index: 0;
+  }  
   #slinky{
     position: absolute;
   top: 9770px;
@@ -699,6 +837,9 @@
     -webkit-transform: rotate(390deg);
     -webkit-transition: 2s;
   }
+  #clickBalloon {
+    z-index: 99;
+  }
    #newspapers {
   position: absolute;
   top: 1640px;
@@ -707,13 +848,22 @@
   height: auto;
   z-index: -1;
   }
+  #poppedBalloon {
+     position: absolute;
+      top: -20px;
+    left: 3700px;
+  width: 500px;
+  height: auto;
+  z-index: 55;
+  -webkit-filter: drop-shadow(0px 0px 0px #222);
+  }
   #balloon{
   position: absolute;
   top: -20px;
   left: 3800px;
   width: 187px;
   height: auto;
-  z-index: -55;
+  z-index: 55;
   -webkit-filter: drop-shadow(0px 0px 0px #222);
   }
   #santahat{
@@ -741,6 +891,34 @@
   height: auto;
   z-index: 1;
   }
+   #nemo{
+    position: absolute;
+  top: 1660px;
+  left: 16050px;
+  width: 70px;
+  height: auto;
+  z-index: -1;
+  -webkit-transition: 3s;
+
+  }
+  #swirl {
+  position: absolute;
+  top: 1480px;
+  left: 15920px;
+  width: 230px;
+  height: auto;
+  z-index: 1;
+  opacity: 0;
+  -webkit-filter: drop-shadow(0px 0px 0px white);
+  }
+  #toilet:hover + #swirl {
+    opacity: 60;
+    -webkit-transition: 3s;
+  }
+   #toilet:hover ~ #nemo {
+      left: 16160px;
+    -webkit-transition: 3s;
+  }
   #sword{
   position: absolute;
   top: 4390px;
@@ -748,6 +926,32 @@
   width: 240px;
   height: auto;
   z-index: 10;
+  }
+  #sword2{
+    position: absolute;
+  top: 4390px;
+  left: 15820px;
+  width: 240px;
+  height: auto;
+  z-index: 10;
+  -webkit-transform: rotate(30deg);
+  opacity: 0;
+  }
+  #smoke{
+  position: absolute;
+  top: 3930px;
+  left: 15370px;
+  width: 1180px;
+  height: auto;
+  z-index: 0;
+  opacity: 0;
+  }
+  #sword:hover + #sword2 {
+    opacity:100;
+  }
+  #sword:hover ~ #smoke {
+    opacity:100;
+    -webkit-transition: 2s;
   }
    #steak{
    position: absolute;
