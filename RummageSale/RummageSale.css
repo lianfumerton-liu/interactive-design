@@ -467,6 +467,7 @@
   width: 1117px;
   height: auto;
   z-index: 2;
+  opacity: 100;
   }
   #gazebo{
    position: absolute;

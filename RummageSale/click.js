@@ -19,7 +19,6 @@ $(document).ready(function() {
 
     $('#clickLamp').click(function() {
     
-    console.log('hey');
 
     if(state == 'off'){
       // turn on the lights
@@ -37,7 +36,6 @@ $(document).ready(function() {
 
     $('#clickHair').click(function() {
     
-    console.log('hey');
 
     if(state == 'off'){
       // turn on the lights
@@ -55,7 +53,6 @@ $(document).ready(function() {
 
     $('#clickUmbrella').click(function() {
     
-    console.log('hey');
 
     if(state == 'off'){
       // turn on the lights
@@ -72,9 +69,7 @@ $(document).ready(function() {
   });
 
      $('#clickLeaves').click(function() {
-    
-    console.log('hey');
-
+  
     if(state == 'off'){
       // turn on the lights
       $(this).html('<img id="leaves" src="PNGs/leaves.png">');
@@ -89,19 +84,17 @@ $(document).ready(function() {
       
   });
 
- $('#clickEyes').click(function() {
-    
-    console.log('hey');
-
+      $('#clockEyes').click(function() {
+  
     if(state == 'off'){
       // turn on the lights
-      $(this).html('<img id="oldclock" src="PNGs/oldclock.png">');
+      $('#eyes').css('display', 'block');
       state = 'on';
     }
     
     else {
       // turn off the lights
-      $(this).html('<img id="eyes" src="PNGs/eyes.png">');
+      $('#eyes').css('display', 'none');
       state = 'off';
     }    
       
