@@ -10,17 +10,19 @@
   body { 
   margin: 0px;
   }
+   img{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  }
   p {
     font-family: 'Pirata One', cursive;
+    color: white;
+    -webkit-text-stroke: 3px black;
     margin-top: 0px;
     margin-left: 200px;
     line-height: 5000px;
     font-size: 5000px;
     margin-bottom: 0px;
     z-index: 0;
-  }
-  img{
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
   }
   #chicken {
     position: absolute;
@@ -38,7 +40,7 @@
     height: auto;
     z-index: -1;
     margin-left: -100px;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
 
    #cowrug {
@@ -48,7 +50,7 @@
     max-width: 3000px;
     height: auto;
     z-index: -2;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
 
    #classylamp {
@@ -84,9 +86,6 @@
     height: auto;
     z-index: 1;
   }
-  #deer:hover{
-    -webkit-transform: rotate(45deg);
-  }
   #grassroll {
     position: absolute;
     top: 10600px;
@@ -94,7 +93,7 @@
     width: 2000px;
     height: auto;
     z-index: -2;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #USA {
     position: fixed;
@@ -103,7 +102,7 @@
     width: 50px;
     height: auto;
     z-index: -40;
-   -webkit-filter: drop-shadow(0px 0px 0px white);
+   
   }
    #sully {
     position: absolute;
@@ -120,7 +119,7 @@
     width: 100px;
     height: auto;
     z-index: 1;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
   #listofthings {
     font-family: 'Allan', cursive;
@@ -135,12 +134,6 @@
     height: auto;
     z-index: 0;
     padding-left: 30px;
-    -webkit-transition: .5s;
-  }
-  #folder:hover + #listofthings {
-    bottom: 95px;
-    line-height: 1.5;
-    letter-spacing: 0px;
     -webkit-transition: .5s;
   }
     #trophy {
@@ -166,7 +159,7 @@
     width: 140px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #drawer {
     position: absolute;
@@ -175,11 +168,7 @@
     width: 420px;
     height: auto;
     z-index: 50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
-    -webkit-transition: top 2s;
-  }
-  #drawer:hover{
-    top: -70px;
+    
     -webkit-transition: top 2s;
   }
    #teacup {
@@ -205,7 +194,7 @@
     width: 1430px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #basketball {
     position: absolute;
@@ -214,9 +203,6 @@
     width: 740px;
     height: auto;
     z-index: 6;
-  }
-  #basketball:hover {
-    -webkit-transform: rotate(90deg);
   }
     #bonsai{
     position: absolute;
@@ -227,7 +213,7 @@
     z-index: 3;
   }
   #bananas{
-   position: absolute;
+    position: absolute;
     top: 3300px;
     left: 6810px;
     width: 500px;
@@ -235,7 +221,7 @@
     z-index: 2;
   }
   #shoe{
-   position: absolute;
+    position: absolute;
     top: 3300px;
     left: 9810px;
     width: 280px;
@@ -243,7 +229,7 @@
     z-index: 5;
   }
    #bucket{
-   position: absolute;
+    position: absolute;
     top: 7370px;
     left: 12810px;
     width: 1040px;
@@ -251,7 +237,7 @@
     z-index: 5;
   }
   #croc{
-   position: absolute;
+    position: absolute;
     top: 7370px;
     left: 12810px;
     width: 1510px;
@@ -259,14 +245,8 @@
     z-index: 7;
     -webkit-transition: .5s;
   }
-    #croc:hover + #steak {
-   top: 7650px;
-    left: 12810px;
-    z-index: 6;
-   -webkit-transition: .5s;
-  }
   #chandelier{
-   position: absolute;
+    position: absolute;
     top: 0px;
     left: 12270px;
     width: 510px;
@@ -274,16 +254,16 @@
     z-index: 1;
   }
   #checkeredflag{
-   position: absolute;
+    position: absolute;
     top: 120px;
     left: -80px;
     width: 620px;
     height: auto;
     z-index: 1;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
   #cookie{
-   position: absolute;
+    position: absolute;
     top: -150px;
     left: 7620px;
     width: 90px;
@@ -291,13 +271,9 @@
     z-index: 51;
     -webkit-transition: top 2s;
   }
-  #drawer:hover ~ #cookie {
-    top: 50px;
-    -webkit-transition: top 2s;
-  }
 
   #desklamp{
-   position: absolute;
+    position: absolute;
     top: 6750px;
     left: 0px;
     width: 240px;
@@ -305,16 +281,16 @@
     z-index: 1;
   }
   #rotatechair{
-   position: absolute;
+    position: absolute;
     top: 6750px;
     left: 10000px;
     width: 460px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #snail{
-   position: absolute;
+    position: absolute;
     top: 8750px;
     left: 13000px;
     width: 190px;
@@ -322,12 +298,8 @@
     z-index: 7;
     -webkit-transition: 300s;
   }
-   #snail:hover {
-    left:-100px;
-    -webkit-transition: 300s;
-  }
    #birdhouse{
-   position: absolute;
+    position: absolute;
     top: 9020px;
     left: 7970px;
     width: 190px;
@@ -335,13 +307,8 @@
     z-index: 7;
     -webkit-transition: 1s;
   }
-  #birdhouse:hover + #dove{
-    top: 8870px;
-    left: 7380px;
-    -webkit-transition: 1s;
-  }
   #cat{
-   position: absolute;
+    position: absolute;
     top: 8250px;
     left: 7090px;
     width: 1020px;
@@ -349,32 +316,24 @@
     z-index: 7;
   }
    #mattress {
-   position: absolute;
+    position: absolute;
     top: 9290px;
     left: 9090px;
     width: 1950px;
     height: auto;
     z-index: 0;
   }
-  #umbrella{
-   position: absolute;
-    top: 4300px;
-    left: 11090px;
-    width: 2367px;
+  #umbrellaclosed{
+    position: absolute;
+    top: 4370px;
+    left: 11720px;
+    width: 967px;
     height: auto;
     z-index: 4;
+    -webkit-transform: rotate(20deg);
   }
-   #umbrellaclosed{
-  position: absolute;
-  top: 4370px;
-  left: 11720px;
-  width: 967px;
-  height: auto;
-  z-index: 4;
-  -webkit-transform: rotate(20deg);
-  }
-   #pizza{
-   position: absolute;
+  #pizza{
+    position: absolute;
     top: 2420px;
     left: 16090px;
     width: 507px;
@@ -383,41 +342,33 @@
   }
   #chomp {
     position: absolute;
-  top: 2570px;
-  left: 15470px;
-  width: 507px;
-  height: auto;
-  z-index: -3;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    top: 2570px;
+    left: 15470px;
+    width: 507px;
+    height: auto;
+    z-index: -3;
+    
     -webkit-transition: 4s;
   }
-  #pizza:hover + #chomp {
-    top: 2570px;
-  left: 15870px;
-  width: 507px;
-  height: auto;
-  z-index: -3;
-  -webkit-transition: 4s;
-  }
   #iron{
-   position: absolute;
+    position: absolute;
     top: 6420px;
     left: 16190px;
     width: 787px;
     height: auto;
     z-index: -1;
   }
-   #manillafolder{
-   position: absolute;
+  #manillafolder{
+    position: absolute;
     top: 1420px;
     left: 10190px;
     width: 1187px;
     height: auto;
     z-index: 6;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
-   #genielamp{
-   position: absolute;
+  #genielamp{
+    position: absolute;
     top: 1710px;
     left: 11160px;
     width: 327px;
@@ -425,7 +376,7 @@
     z-index: 7;
   }
   #matchbox{
-   position: absolute;
+    position: absolute;
     top: 8710px;
     left: 2999px;
     width: 4027px;
@@ -434,18 +385,15 @@
   }
   #fire{
     position: absolute;
-  top: 8970px;
-  left: 5749px;
-  width: 417px;
-  height: auto;
-  z-index: 7;
-  opacity: 0;
-  }
-  #matchbox:hover + #fire{
-    opacity: 100;
+    top: 8970px;
+    left: 5749px;
+    width: 417px;
+    height: auto;
+    z-index: 7;
+    opacity: 0;
   }
   #mop{
-   position: absolute;
+    position: absolute;
     top: 8440px;
     left: 3079px;
     width: 157px;
@@ -453,7 +401,7 @@
     z-index: 7;
   }
   #oldclock{
-   position: absolute;
+    position: absolute;
     top: 3830px;
     left: 2809px;
     width: 2267px;
@@ -461,16 +409,16 @@
     z-index: 2;
   }
   #eyes{
-   position: absolute;
-  top: 4000px;
-  left: 3389px;
-  width: 1117px;
-  height: auto;
-  z-index: 2;
-  opacity: 100;
+    position: absolute;
+    top: 4000px;
+    left: 3389px;
+    width: 1117px;
+    height: auto;
+    z-index: 2;
+    opacity: 100;
   }
   #gazebo{
-   position: absolute;
+    position: absolute;
     top: 10030px;
     left: 400px;
     width: 567px;
@@ -478,19 +426,16 @@
     z-index: 0;
   }
   #person{
-   position: absolute;
-  top: 9940px;
-  left: 480px;
-  width: 127px;
-  height: auto;
-  z-index: 0;
-  opacity: -1;
+    position: absolute;
+    top: 9940px;
+    left: 480px;
+    width: 127px;
+    height: auto;
+    z-index: 0;
+    opacity: -1;
   }
-  #gazebo:hover + #person{
-    opacity: 100;
-  }
-   #hair{
-   position: absolute;
+  #hair{
+    position: absolute;
     top: 1730px;
     left: 3800px;
     width: 917px;
@@ -506,102 +451,71 @@
     z-index: 3;
   }
   #rat {
-  position: absolute;
-  top: 12290px;
-  left: 0px;
-  width: 287px;
-  height: auto;
-  z-index: 3;
+    position: absolute;
+    top: 12290px;
+    left: 0px;
+    width: 287px;
+    height: auto;
+    z-index: 3;
   }
   #oillamp {
-  position: absolute;
-  top: 9190px;
-  left: 1660px;
-  width: 1527px;
-  height: auto;
-  z-index: 3;
-   -webkit-transition: 1s;
-  }
-  #oillamp:hover {
-    left: 1200px;
-    top: 9090px;
-    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 9190px;
+    left: 1660px;
+    width: 1527px;
+    height: auto;
+    z-index: 3;
     -webkit-transition: 1s;
   }
   #plant {
-  position: absolute;
-  top: 260px;
-  left: 1790px;
-  width: 1247px;
-  height: auto;
-  z-index: 3;
-  -webkit-transition: 8s;
-  }
-  #plant:hover{
-    left: 1530px;
-    top: 34px;
-    width: 1700px;
+    position: absolute;
+    top: 260px;
+    left: 1790px;
+    width: 1247px;
+    height: auto;
+    z-index: 3;
     -webkit-transition: 8s;
   }
   #tv {
-  position: absolute;
-  top: -250px;
-  left: 5860px;
-  width: 3377px;
-  height: auto;
-  z-index: 1;
-  }
-    #explosion {
-      position: absolute;
-  top: 2570px;
-  left: 6860px;
-  width: 698px;
-  height: auto;
-  z-index: 2;
-  opacity: 0;
-  }
-  #tv:hover + #explosion {
-    opacity: 100;
-    -webkit-transition: 5s;
+    position: absolute;
+    top: -250px;
+    left: 5860px;
+    width: 3377px;
+    height: auto;
+    z-index: 1;
   }
   #book {
-  position: absolute;
-  top: 10930px;
-  left: 8760px;
-  width: 957px;
-  height: auto;
-  z-index: 1;
+    position: absolute;
+    top: 10930px;
+    left: 8760px;
+    width: 957px;
+    height: auto;
+    z-index: 1;
   }
   #chess{
-  position: absolute;
-  top: 10380px;
-  left: 11760px;
-  width: 1687px;
-  height: auto;
-  z-index: 1;
+    position: absolute;
+    top: 10380px;
+    left: 11760px;
+    width: 1687px;
+    height: auto;
+    z-index: 1;
   }
   #gnome{
-  position: absolute;
-  top: 10440px;
-  left: 14753px;
-  width: 1117px;
-  height: auto;
-  z-index: 3;
-  }
-  #gnome:hover {
+    position: absolute;
     width: 5117px;
     left: 12753px;
     top: 8440px;
-    -webkit-transition: .2s;
+    height: auto;
+    z-index: 3;
   }
   #garbagebag{
-   position: absolute;
-  top: 7309px;
-  left: 14753px;
-  width: 2117px;
-  height: auto;
-  z-index: -2;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+    position: absolute;
+    top: 7309px;
+    left: 14753px;
+    width: 2117px;
+    height: auto;
+    z-index: -2;
+    
   }
    #box{
    position: fixed;
@@ -618,10 +532,6 @@
   width: 37px;
   height: auto;
   z-index: -2;
-  -webkit-transition: 1s;
-  }
-  #box:hover + #jackball{
-  bottom: 353px;
   -webkit-transition: 1s;
   }
    #legalpad {
@@ -681,9 +591,9 @@
   }
   #tire{
   position: absolute;
-  top: 10490px;
-  left: 3999px;
-  width: 2027px;
+  top: 10160px;
+  left: 4189px;
+  width: 1367px;
   height: auto;
   z-index: 9;
   }
@@ -694,22 +604,13 @@
   width: 187px;
   height: auto;
   z-index: 0;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
    #obama2{
      position: absolute;
   top: 5300px;
   left: 8050px;
   width: 87px;
-  height: auto;
-  z-index: -1;
-  -webkit-transition: 3s;
-  }
-  #obama:hover + #obama2 {
-    position: absolute;
-  top: 5200px;
-  left: 8010px;
-  width: 177px;
   height: auto;
   z-index: -1;
   -webkit-transition: 3s;
@@ -721,7 +622,7 @@
   width: 587px;
   height: auto;
   z-index: -1;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
   #fence{
   position: absolute;
@@ -788,9 +689,6 @@
   z-index: 1;
   -webkit-transition: 30s;
   }
-  #creature:hover {
-    top: -900px;
-  }
   #dove {
     position: absolute;
   top: 6800px;
@@ -806,17 +704,8 @@
   width: 1257px;
   height: auto;
   z-index: -5;
-  }
-    #leaves{
-  position: absolute;
-  top: 11570px;
-  left: 5389px;
-  width: 997px;
-  height: auto;
-  z-index: 0;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
-  }  
-  #leavesScattered{
+  } 
+  #leaves{
   position: absolute;
   top: 10720px;
   left: 5389px;
@@ -831,12 +720,8 @@
   width: 327px;
   height: auto;
   z-index: 5;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   -webkit-transition: 2s;
-  }
-  #slinky:hover{
-    -webkit-transform: rotate(390deg);
-    -webkit-transition: 2s;
   }
   #clickBalloon {
     z-index: 99;
@@ -849,22 +734,13 @@
   height: auto;
   z-index: -1;
   }
-  #poppedBalloon {
+  #balloon {
      position: absolute;
       top: -20px;
     left: 3700px;
   width: 500px;
   height: auto;
   z-index: 55;
-  -webkit-filter: drop-shadow(0px 0px 0px #222);
-  }
-  #balloon{
-  position: absolute;
-  top: -20px;
-  left: 3800px;
-  width: 187px;
-  height: auto;
-  z-index: 0;
   -webkit-filter: drop-shadow(0px 0px 0px #222);
   }
   #santahat{
@@ -874,7 +750,7 @@
   width: 190px;
   height: auto;
   z-index: -50;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
    #shrub{
    position: absolute;
@@ -895,7 +771,7 @@
    #nemo{
     position: absolute;
   top: 1660px;
-  left: 16050px;
+  left: 16160px;
   width: 70px;
   height: auto;
   z-index: -1;
@@ -908,17 +784,8 @@
   left: 15920px;
   width: 230px;
   height: auto;
-  z-index: 1;
-  opacity: 0;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
-  }
-  #toilet:hover + #swirl {
-    opacity: 60;
-    -webkit-transition: 3s;
-  }
-   #toilet:hover ~ #nemo {
-      left: 16160px;
-    -webkit-transition: 3s;
+  z-index: -1;
+  
   }
   #sword{
   position: absolute;
@@ -947,13 +814,6 @@
   z-index: 0;
   opacity: 0;
   }
-  #sword:hover + #sword2 {
-    opacity:100;
-  }
-  #sword:hover ~ #smoke {
-    opacity:100;
-    -webkit-transition: 2s;
-  }
    #steak{
    position: absolute;
   top: 5390px;
@@ -969,7 +829,7 @@
   width: 1240px;
   height: auto;
   z-index: -55;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
     #toaster{
     position: absolute;
@@ -981,17 +841,13 @@
   }
   #toast{
   position: absolute;
-  top: 8500px;
+  top: 6900px;
   left: 10400px;
   width: 450px;
   height: auto;
   z-index: 2;
-  -webkit-transition: .5s;
   }
-  #toaster:hover + #toast{
-    top: 6900px;
-  }
-   #opensign{
+   #closedsign{
     position: absolute;
   top: 30px;
   left: 900px;
@@ -1015,9 +871,6 @@
   height: auto;
   z-index: 60;
   opacity: 0;
-  }
-  #cash:hover ~ #bills {
-    opacity: 100;
   }
 
   #postit {
@@ -1161,7 +1014,7 @@
     width: 130px;
     height: auto;
     z-index: -2;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #sully {
     position: absolute;
@@ -1194,7 +1047,7 @@
   width: 20px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #drawer {
     position: absolute;
@@ -1227,7 +1080,7 @@
   width: 80px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #basketball {
     position: absolute;
@@ -1313,7 +1166,7 @@
   width: 30px;
     height: auto;
     z-index: -50;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #snail{
    position: absolute;
@@ -1379,7 +1232,7 @@
   width: 37px;
     height: auto;
     z-index: 6;
-    -webkit-filter: drop-shadow(0px 0px 0px white);
+    
   }
    #genielamp{
    position: absolute;
@@ -1456,9 +1309,9 @@
   }
   #tv {
   position: absolute;
-  top: -250px;
-  left: 5860px;
-  width: 3377px;
+  top: 250px;
+  left: 180px;
+  width: 77px;
   height: auto;
   z-index: 1;
   }
@@ -1493,7 +1346,7 @@
   width: 97px;
   height: auto;
   z-index: -2;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
   #paperclip{
     position: absolute;
@@ -1526,7 +1379,7 @@
   width: 37px;
   height: auto;
   z-index: -1;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
   #fence{
   position: absolute;
@@ -1608,7 +1461,7 @@
   width: 77px;
   height: auto;
   z-index: 0;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }  
   #slinky{
     position: absolute;
@@ -1617,7 +1470,7 @@
   width: 17px;
   height: auto;
   z-index: 5;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   -webkit-transition: 2s;
   }
    #newspapers {
@@ -1644,7 +1497,7 @@
   width: 20px;
   height: auto;
   z-index: -50;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
    #shrub{
    position: absolute;
@@ -1684,7 +1537,7 @@
   width: 50px;
   height: auto;
   z-index: -55;
-  -webkit-filter: drop-shadow(0px 0px 0px white);
+  
   }
     #toaster{
     position: absolute;
@@ -1706,7 +1559,7 @@
   #toaster:hover + #toast{
     top: 6900px;
   }
-   #opensign{
+   #closedsign{
     position: absolute;
   top: 70px;
   left: 160px;
@@ -1723,21 +1576,6 @@
   z-index: 5;
   }
   }
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
 
 
 
