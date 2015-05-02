@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  $('#sound')[0].play();
 
   var cursor =["#custom-cursor","#custom-cursor2","#custom-cursor3","#custom-cursor4","#custom-cursor5"]
   var random_cursor = cursor[Math.floor(Math.random() * cursor.length)];
@@ -575,7 +576,7 @@ var flavorsome = ["7up",
 "sassafras",
 "saturated",
 "sausage",
-"sautã©",
+"saute",
 "savory",
 "scalded",
 "scented",
@@ -803,8 +804,8 @@ $.ajax({
   var random_color2 = color[Math.floor(Math.random() * color.length)];
 
   var random_text = Math.floor(Math.random() * 230) + 100;
-  var random_image_x = Math.floor(Math.random() * 1500) - 500;
-  var random_image_y = Math.floor(Math.random() * 300) - 200;
+  var random_image_x = Math.floor(Math.random() * 1400) - 400;
+  var random_image_y = Math.floor(Math.random() * 200) - 200;
   var random_image = Math.floor(Math.random() * 200) + 30;
   //var random_stroke = Math.floor(Math.random() * 5) + 2;
   var random_stroke = random_text / 50;
