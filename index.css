@@ -2,7 +2,6 @@
   width: 1400px;
   height: 1400px;
   margin: 0 auto; 
-  cursor: help;
 }
 
 body{
@@ -10,7 +9,7 @@ body{
   background-image: url(check.png);
   background-size: 300px;
   z-index: -1;
-  cursor: help;
+    cursor: url(me.cur), default;
 
 }
 
@@ -96,6 +95,17 @@ body{
   z-index: 3;
 }
 
+#bowl {
+  width: 90px;
+  height: 60px;
+  background: url(check.png);
+  box-shadow: 3px 3px 1px Blue;
+  position: fixed;
+  bottom: 0px;
+  left: 1300px;
+  z-index: 3;
+}
+
 
 
 #name {
@@ -113,11 +123,6 @@ body{
     -1px 1px 0 Blue,
     5px 5px 0 Blue; 
     -webkit-transition: opacity 10s ease; 
-}
-
-#name:hover {
-  opacity: 0;
-  -webkit-transition: opacity 10s ease;
 }
 
 #clock {
@@ -217,5 +222,24 @@ body{
 
 #Rummage:hover{
   -webkit-filter: drop-shadow(10px 10px 10px #222);
+}
+
+#Aggregator {
+  font-family: consolas, monospace;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-align: center;
+  -webkit-text-stroke: 3px lime;
+  font-size: 200px;
+  color: white;
+  letter-spacing: 2px;
+  position: absolute;
+    left: 4600px;
+    top: 5050px;
+    z-index: 2;
+}
+#Aggregator:hover{
+  color: Fuchsia;
 }
 

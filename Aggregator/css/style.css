@@ -5,6 +5,7 @@ body {
   padding-top: 50px;
   background: white;
   border-style: solid;
+  border-color: white;
   border-width: 15px;
   cursor: none;
   overflow: hidden;
@@ -12,6 +13,7 @@ body {
 }
 #custom-cursor{
     width: 548px;
+    z-index: 300;
     height: 548px;
     position: absolute;
     opacity: 0;
@@ -21,6 +23,7 @@ body {
 #custom-cursor2{
     width: 446px;
     height: 548px;
+    z-index: 300;
     position: absolute;
     opacity: 0;
     background-size: 446px 548px;
@@ -30,6 +33,7 @@ body {
     width: 700px;
     height: 328px;
     opacity: 0;
+    z-index: 300;
     position: absolute;
     background-size: 700px 328px;
     background-image: url(../plasticfork.png);
@@ -38,6 +42,7 @@ body {
     width: 514px;
     height: 570px;
     opacity: 0;
+    z-index: 300;
     position: absolute;
     background-size: 514px 570px;
     background-image: url(../plasticspoon.png);
@@ -46,6 +51,7 @@ body {
     width: 700px;
     height: 356px;
     opacity: 0;
+    z-index: 300;
     position: absolute;
     background-size: 700px 356px;
     background-image: url(../spork.png);
@@ -61,7 +67,7 @@ body {
   font-family: consolas, monospace;
   font-style: italic;
   text-decoration: none;
-  z-index: 100;
+  z-index: 10;
   opacity: 30;
 }
 

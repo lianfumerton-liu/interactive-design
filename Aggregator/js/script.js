@@ -744,7 +744,7 @@ var flavorsome = ["7up",
 "zippy",
 "home sweet home"];
 
-  var img = ["products/febreze.png","products/candle.JPG","products/shirt.jpg","products/ridged.jpg","products/pie.jpg","products/shirt2.jpg","products/haribo.jpg","products/measure.jpg", "products/bowl.jpg", "products/solo.jpg","products/Lollipops.jpg","products/smell.jpg","products/bean.jpg","products/mints.png","products/wine.jpeg"];
+  var img = ["products/febreze.png","products/lipbalm.jpg","products/tooth.jpg","products/axe.jpg","products/paper.jpg","products/towel.jpg","products/taco.jpg","products/slurpee.jpg","products/yogurt.jpg","products/cone.jpg","products/litter.jpg","products/lotion.jpg","products/candle.JPG","products/shirt.jpg","products/ridged.jpg","products/pie.jpg","products/shirt2.jpg","products/haribo.jpg","products/measure.jpg", "products/bowl.jpg", "products/solo.jpg","products/Lollipops.jpg","products/smell.jpg","products/bean.jpg","products/mints.png","products/wine.jpeg"];
 
 // 1) Find your API's unique code.
 //    To do this, go to your API's page and copy the string of numbers and letters after "apis/" in the URL
@@ -798,7 +798,7 @@ $.ajax({
     //}
   }
 
-  var color =["blue","red","lime","orange","yellow","fuchsia","purple"]
+  var color =["blue","red","lime","orange","yellow","fuchsia","BlueViolet"]
   var random_color = color[Math.floor(Math.random() * color.length)];
   var random_color2 = color[Math.floor(Math.random() * color.length)];
 
