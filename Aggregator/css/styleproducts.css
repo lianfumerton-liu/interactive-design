@@ -1,0 +1,109 @@
+body {
+  font-family: consolas, monospace;
+  color: white;
+  margin: 0;
+  padding: 50px;
+  background: white;
+  border-style: solid;
+  border-width: 15px;
+  border-color: Fuchsia;
+  cursor: none;
+  text-align: center;
+  /*cursor: url('data:image/x-icon;base64,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'), auto;*/
+}
+#custom-cursor{
+    width: 548px;
+    height: 548px;
+    position: absolute;
+    opacity: 0;
+    background-size: 548px 548px;
+    background-image: url(../fork.png);
+}
+#custom-cursor2{
+    width: 446px;
+    height: 548px;
+    position: absolute;
+    opacity: 0;
+    background-size: 446px 548px;
+    background-image: url(../Spoon.png);
+}
+#custom-cursor3{
+    width: 700px;
+    height: 328px;
+    opacity: 0;
+    position: absolute;
+    background-size: 700px 328px;
+    background-image: url(../plasticfork.png);
+}
+#custom-cursor4{
+    width: 514px;
+    height: 570px;
+    opacity: 0;
+    position: absolute;
+    background-size: 514px 570px;
+    background-image: url(../plasticspoon.png);
+}
+#custom-cursor5{
+    width: 700px;
+    height: 356px;
+    opacity: 0;
+    position: absolute;
+    background-size: 700px 356px;
+    background-image: url(../spork.png);
+}
+
+#goback {
+  position: fixed;
+  margin-top: -40px;
+  padding-left: 20px;
+  font-size: 70px;
+  -webkit-text-stroke: 1.5px black;
+  color: white;
+  font-family: consolas, monospace;
+  font-style: italic;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 30;
+}
+
+#refresh:hover {
+  opacity: 100;
+}
+
+.bar {
+  position: fixed;
+  bottom: 0;
+  margin-left: -50px;
+  height: 16px;
+  width: 100%;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    line-height: 1;
+}
+
+.group1 {
+  position: fixed;
+  width: 96%;
+  padding-left: 5px;
+  font-size: 300%;
+  margin: 0 auto;
+  margin-top: 0px;
+  line-height: 200px;
+  color: rgba(0, 0, 0, .0000000001);
+  text-transform: lowercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.group {
+  display: inline-block;
+  margin: 25px;
+  width: 215px;
+  height: 290px;
+  overflow: hidden;
+}
+

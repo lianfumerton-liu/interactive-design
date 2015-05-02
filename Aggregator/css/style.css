@@ -1,0 +1,168 @@
+body {
+  font-family: consolas, monospace;
+  height: 100%;
+  margin: 0;
+  padding-top: 50px;
+  background: white;
+  border-style: solid;
+  border-width: 15px;
+  cursor: none;
+  overflow: hidden;
+
+}
+#custom-cursor{
+    width: 548px;
+    height: 548px;
+    position: absolute;
+    opacity: 0;
+    background-size: 548px 548px;
+    background-image: url(../fork.png);
+}
+#custom-cursor2{
+    width: 446px;
+    height: 548px;
+    position: absolute;
+    opacity: 0;
+    background-size: 446px 548px;
+    background-image: url(../Spoon.png);
+}
+#custom-cursor3{
+    width: 700px;
+    height: 328px;
+    opacity: 0;
+    position: absolute;
+    background-size: 700px 328px;
+    background-image: url(../plasticfork.png);
+}
+#custom-cursor4{
+    width: 514px;
+    height: 570px;
+    opacity: 0;
+    position: absolute;
+    background-size: 514px 570px;
+    background-image: url(../plasticspoon.png);
+}
+#custom-cursor5{
+    width: 700px;
+    height: 356px;
+    opacity: 0;
+    position: absolute;
+    background-size: 700px 356px;
+    background-image: url(../spork.png);
+}
+
+#refresh {
+  position: fixed;
+  margin-top: -40px;
+  padding-left: 20px;
+  font-size: 70px;
+  -webkit-text-stroke: 1.5px black;
+  color: white;
+  font-family: consolas, monospace;
+  font-style: italic;
+  text-decoration: none;
+  z-index: 100;
+  opacity: 30;
+}
+
+#refresh:hover {
+  opacity: 100;
+}
+
+#cart {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 100px;
+  height: auto;
+  z-index: 300;
+}
+#cart:hover{
+  left: 30px;
+}
+
+.bar {
+  position: fixed;
+  bottom: 0;
+  height: 16px;
+  width: 100%;
+}
+
+#image1 { 
+  position: absolute;
+  z-index: -10; 
+  height: 100%;
+  width: auto;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    line-height: 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+  font-size: 10em;
+  text-align:center;
+  color: lime;
+  text-transform: lowercase;
+}
+
+.list-group-item {
+    margin-bottom: 0;
+}
+
+.group {
+  position: fixed;
+  width: 96%;
+  padding-left: 5px;
+  font-size: 300%;
+  margin: 0 auto;
+  margin-top: 0px;
+  line-height: 200px;
+  color: rgba(0, 0, 0, .0000000001);
+  text-transform: lowercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.group img {
+	margin-bottom: 1em;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1010px) {
+    .group {
+      font-size: 100%;
+      width: 90%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .group {
+      font-size: 100%;
+      width: 90%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .group {
+      font-size: 100%;
+      width: 90%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .group {
+      font-size: 100%;
+      width: 90%;
+    }
+}

@@ -1,0 +1,754 @@
+Cream Soda
+Root Beer
+Berry Blue
+Blueberry
+Bubble Gum
+Buttered Popcorn
+Cantaloupe
+Cappuccino
+Caramel Corn
+Chili Mango 
+Chocolate Pudding
+Cinnamon
+Coconut
+Cotton Candy
+Crushed Pineapple
+Dr Pepper
+French Vanilla
+Green Apple
+Island Punch
+Juicy Pear
+Kiwi
+Lemon Drop
+Lemon Lime
+Licorice
+Mango
+Margarita
+Mixed Berry Smoothie
+Orange Sherbet
+Peach
+Pina Colada
+Plum 
+Pomegranate
+Raspberry
+Red Apple
+Sizzling Cinnamon
+Sour Cherry
+Strawberry Cheesecake
+Strawberry Daiquiri
+Strawberry Jam
+Sunkist Lemon
+Sunkist Lime
+Sunkist Orange
+Sunsets Pink Grapefruit
+Sunkist Tangerine
+Toasted Marshmallow
+Top Banana 
+Tutti-Fruitti
+Very Cherry
+Watermelon
+Wild Blackberry
+7UP
+Grape Crush
+Orange Crush
+TABASCO
+Birthday Cake Remix
+Mint
+Cranberry Raspberry
+Fruit Punch
+Kiwi Strawberry
+Mango Madness
+Pink Lemonade
+Acai Berry
+Barbados Cherry
+Mojito
+Peach Bellini
+Pomegranate Cosmo
+Strawberry Daiquiri
+Black Pepper
+Booger
+Candyfloss
+Dirt
+Earthworm
+Earwax
+Grass
+Rotten Egg
+Sausage
+Soap
+Vomit
+
+Strawberry Shortcake
+Mocha Latte
+Root Beer Float
+Orange Creamsicle
+Blueberries and Cream
+Lemon Meringue Pie
+Cherry Cheesecake
+Cinnamon Bun
+Butterscotch Sundae
+Candy Apple
+Banana Split
+Orange Splash
+
+Boom Chocolatta
+Peanut Buttah
+Spectacular Speculoos
+Peanut Butter Half Baked
+The Tonight Dough
+Wayne’Swirled
+Hazed & Confused
+Karamel Sutra
+Peanut Butter Fudge
+Salted Caramel
+That’s My Jam
+Americone Dream
+Boston Cream Pie
+Cake Batter
+Candy Bar Pie
+Cheesecake Brownie
+Cherry Garcia
+Chocolate Chip Cookie Dough
+Chocolate Fudge Brownie
+Chocolate Peppermint Crunch
+Chocolate Therapy
+Chubby Hubby
+Chunky Monkey
+Coffee Toffee Bar Crunch
+Coffee, Coffee BuzzBuzzBuzz
+Everything But The…
+Half Baked
+Milk & Cookies
+Mint Chocolate Cookie
+New York Super Fudge Chunk
+Phish Food
+Pistachio Pistachio
+Pumpkin Cheesecake
+Red Velvet Cake
+S’mores
+Vanilla
+What a Cluster
+Blueberry Vanilla Graham
+Liz Lemon
+Pineapple Passionfruit
+Two Wild & Crazy Pies
+Lazy Sunday
+
+Gluten-Free
+Sugar-Free
+Soy
+Almond 
+Low-Calorie
+Fat-Free
+Carbonated
+
+Acid
+Acidic
+Acrid
+Airy
+A la carte
+A la king
+A la mode
+Alcoholic
+Al dente
+Almond flavored
+Ambrosial
+Appetizing
+Aroma
+Aromatic
+Au fromage
+Au gratin
+Au jus
+Balsamic
+Barbecue
+Battered
+Béarnaise
+Bite-size
+Biting
+Bitter
+Blackened
+Blah
+Blanched
+Bland
+Blended
+Bold
+Bolognese
+Boned
+Brackish
+Braised
+Brewed
+Briny
+Brittle
+Broiled
+Browned
+Bubbly
+Burning
+Bursting
+Butterflied
+Buttery
+Cacciatore
+Candied
+Canned
+Caramelized
+Caustic
+Chalky
+Charcuterie
+Charred
+Cheesy
+Chewy
+Chili
+Chilled
+Chipotle
+Chocolaty
+Chopped
+Chowder
+Clarified
+Classical
+Comfort Food
+Condensed
+Condiment
+Course
+Creamed
+Creamery
+Creamy
+Creole
+Crispy
+Crumbly
+Crunchy
+Crusty
+Crystalized
+Cuisine
+Curd
+Curdled
+Cured
+Curried
+Dash
+Decadent
+Deglaze
+Dehyrated
+Delectable
+Delicious
+Delightful
+Devein
+Deviled
+Dietary
+Diluted
+Dipping
+Disagreeable
+Disgusting
+Distasteful
+Distinctive
+Divine
+Dredged
+Drenched
+Dripping
+Dried out
+Drizzled
+Dry
+Dry-Roasted
+Dull
+Dusted
+Earthy
+Eatable
+Edible
+Enjoyable
+Enticing
+Entrée
+Escalloped
+Etouffee
+Evaporated
+Exquisite
+Fermented
+Fine
+Finger Licking Good
+Fibrous
+Filling
+Fiery
+Fishy
+Fizzy
+Flakey
+Flambé
+Flavorless
+Flavorsome
+Florentine
+Floury
+Fluffy
+Foie gras
+Folded
+Foul
+Fra diablo
+Fragrant
+Feathery
+Fresh
+Freeze dried
+Fricasseed
+Fried
+Frosty
+Frozen
+Fruity
+Full-bodied
+Full-flavored
+Gamy
+Garlicky
+Gastric
+Gingery
+Glazed
+Glopy
+Glossy
+Gluteny
+Good
+Gooey
+Grainy
+Granulated
+Grated
+Gratifying
+Greasy
+Griddled
+Grilled
+Gritty
+Gross
+Hardboiled
+Heady
+Heat
+Heavy
+Healthy
+Hearty
+Heavenly
+Herbaceous
+Hint
+Homogenized
+Honeyed
+Hors d’oeuvre
+Hot
+Hot Sauce
+Icy
+Infused
+Intense
+Inviting
+Juicy
+Julienne
+Kick
+Kosher
+Laced
+Laden
+Laiche
+Layered
+Lemony
+Light
+Limp
+Lip-smacking
+Liquid
+Low-Fat
+Lumpy
+Luscious
+Lusty
+Lyonnaise
+Malodorous
+Marinate
+Marvelous
+Mashed
+Mealy
+Medium
+Mellow
+Melting
+Messy
+Microwave
+Mild
+Milky
+Minced
+Minty
+Mixed
+Moist
+Moldy
+mouth-watering
+Muddy
+Mushy
+Nasty
+Natural
+Nauseating
+Nectarous
+Nosey
+Nourishing
+Noxious
+Nuked
+Nutriment
+Nutritious
+Nutty
+Odoriferous
+Odorless
+Oily
+Oniony
+Oozing
+Organic
+Overpowering
+Palatable
+Pan-fried
+Paprika
+Parboiled
+Parched
+Pasteurized
+Pasty
+Pâté
+Peck
+Penetrating
+Peppered
+Peppery
+Perfumed
+Perishable
+Piccata
+Pickled
+Piping
+Piquant
+Pleasant
+Powdered
+Powdery
+Potent
+Pouched
+Preserved
+Puffy
+Pulp
+Pulverized
+Pungent
+Puréed
+Ragout
+Rancid
+Rank
+Rare
+Raw
+Redolent
+Reduced
+Reeking
+Refreshing
+Relish
+Rich
+Rib Sticking
+Ripe
+Roasted
+Robust
+Rotten
+Roux
+Ruined
+Runny
+Saline
+Salted
+Salty
+Saturated
+Sapid
+Saporous
+Sauté
+Savory
+Scalded
+Scented
+Scorched
+Scrambled
+Scrumptious
+Seared
+Seasoned
+Sharp
+Shredded
+Sizzling
+Simmering
+Skimmed
+Skunky
+Slathered
+Sliced
+Slimy
+Slivered
+Smelly
+Smokey
+Smooth
+Smothered
+Snappy
+Snappy
+Soaked
+Sodden
+Soft
+soft-boiled
+Soggy
+Sordid
+Soufflé
+Soupy
+Sour
+Sparkling
+Spicy
+Spirited
+Spoiled
+Spongy
+Spread
+Sprinkled
+Stale
+Starchy
+Steamy
+Stewed
+Stiff
+Stinging
+Stringy
+Stinky
+Strong
+Stuffed
+Subdued
+Succulent
+Sunnyside up
+sugar-coated
+Sugary
+Sweet
+Sweet and Sour
+Syrupy
+Tainted
+Tangy
+Tantalizing
+Tart
+Tasteless
+Tasty
+Tempting
+Tender
+Tepid
+Texture
+Thick
+Titillating
+Toasted
+Toothsome
+Tough
+Tumaceous
+Unsavory
+Vanilla
+Velvety
+Vicious
+Vinegary
+Warm
+Watery
+Well-done
+Wet
+Whey
+Whipped
+Wholesome
+Wild
+Wilted
+Yucky
+Yummy
+Zest
+Zestful
+Zesty
+Zippy
+
+Angular
+Austere
+Barnyard
+Big
+Bright
+Buttery
+Charcoal 
+Cigar Box
+Complex
+Creamy
+Crisp
+Dense
+Earthy
+Elegant
+Fat
+Flabby
+Flamboyant
+Fleshy
+Grippy
+Hint Of
+Intellectually Satisfying 
+Juicy
+Laser-Like
+Minerally
+Oaked
+Opulent
+Refined
+Silky
+Steely
+Structured
+Tight
+Toasty
+Unctuous
+Unoaked
+Velvety
+
+Angel's Wings
+Apple Cider
+Apple Pumpkin
+Autumn Leaves
+Autumn Wreath
+Bahama Breeze
+Balsam & Cedar
+Bay Leaf Wreath
+Beach Flowers
+Beach Holiday
+Beach Vacation
+Beach Walk
+Beach Wood
+Berrylicious
+Black Cherry
+Black Coconut
+Blue Summer Sky
+Blueberry Scone
+Buttercream
+Campfire Treat
+Candy Cane Lane
+Caramel Pecan Pie
+Celebrate Christmas
+Chocolate Layer Cake
+Christmas Cookie
+Christmas Eve
+Christmas Wreath
+Cinnamon Stick
+Cinnamon Vanilla
+Citrus Tango
+Clean Cotton
+Coconut & Vanilla Bean
+Coconut Bay
+Cranberry Chutney
+Cranberry Pear
+Cranberry Peppermint
+Early Sunrise
+Eucalyptus
+Evening Air
+Exotic Bloom
+Farmer's Market
+Fluffy Towels
+French Vanilla
+Fresh Cut Roses
+Fruit Fusion
+Gingerbread
+Golden Sands
+Grapevine & Oak
+Green Grass
+Greenhouse
+Harvest
+Hazelnut Coffee
+Holiday Bayberry
+Home for the Holiday
+®Home Sweet Home
+Honey Blossom
+Honeydew Melon
+Island Spa
+Juicy Peach
+Juicy Watermelon
+Kitchen Spice
+Lake Sunset
+Lavender Vanilla
+Lavender
+Leather
+Lemon Lavender
+Lilac Blossoms
+Loves Me, Loves Me Not
+Luau Party
+Luscious Plum
+Macintosh
+Magical Frosted Forest
+Mandarin Cranberry
+Mango Peach Salsa
+Margarita Time
+Meadow Showers
+Merry Marshmallow
+Meyer Lemon
+Midnight Jasmine
+Midnight Oasis
+MidSummer's Night
+Mistletoe
+Mountain Lodge
+Napa Valley Sun
+North Pole
+November Rain
+Ocean Star
+Ocean Water
+Orange Dreamsicle
+Over The River
+Paradise Spice
+Patchouli
+Peach Cobbler
+Peppermint Bark
+Picnic in the Park
+Pineapple Cilantro
+Pink Sands
+Pomegranate Cider
+Pumpkin Buttercream
+Pumpkin Ginger Bark
+Pumpkin Pie
+Pumpkin Wreath
+Red Apple Wreath
+Red Berry & Cedar
+Red Raspberry
+Red Velvet
+Sage & Citrus
+Salt Water Taffy
+Salted Caramel
+Sea Coral
+Silver Birch
+Snowflake Cookie
+Soft Blanket
+Sparkling Cinnamon
+Sparkling Snow
+Spiced Pumpkin
+Storm Watch
+Sugared Apple
+Summer Scoop
+Summer Wish
+Sun & Sand
+Sunflower
+Sweet Strawberry
+Treehouse Memories
+True Rose
+Tulips
+Turquoise Sky
+Under The Palms
+Vanilla Chai
+Vanilla Cupcake
+Vanilla Lime
+Vineyard
+Waikiki Melon
+Water Garden
+Wedding Day
+White Chocolate Apple
+White Christmas
+White Gardenia
+Whoopie Pie!
+Wild Sea Grass
+Windblown
+Winter Garden
+
+Alligator pepper
+Avocado Leaf
+Basil
+Bay leaf
+Black cardamom
+Black Mustard
+Brown Mustard
+Caper
+Cardamom
+Catnip
+Cayenne pepper
+Celery leaf
+Celery Seed
+Chicory
+Chili Pepper
+Chives
+Cilantro
+Clove
+Coriander seed
+Cumin
+Curry
+Dill
+Elderflower
+Fennel
+Horseradish
+Jasmine
+Juniper berry
+Lavender
+Licorice
+Nutmeg
+Paprika
+Parsley
+Pepper
+Rosemary
+Saffron
+Sage
+Sassafras
+Tarragon
+Thyme
+Wasabi
+Watercress
+
+
