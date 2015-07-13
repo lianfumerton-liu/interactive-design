@@ -777,7 +777,7 @@ $.ajax({
     var caption_number = Math.floor(Math.random() * (collection.length - 1));
     var text = collection[caption_number].captions;
 
-    var words = text.split(" ");
+    var words = text.text.split(" ");
     var number_of_words = Math.floor(Math.random() * 2) + 2;
 
     if (number_of_words > words.length) {
